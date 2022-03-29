@@ -1,0 +1,65 @@
+.abody{
+  font-family: roboto,arial,san-serif;
+}
+.anavbar{
+    width:100%;
+    border:1px solid black;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    background-color: white;
+    top:0;
+  }
+.ablack{
+    color:white;
+    background: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0,0,0, .4)), 
+    url('https://htmlcolorcodes.com/assets/images/colors/black-color-solid-background-1920x1080.png');
+    height: 135vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border:1px solid green;
+    margin:auto;
+
+}
+.ared{
+  background-color: #ff385c;
+  width:88%;
+  height:29%;
+  margin:auto;
+  margin-top:10%;
+  border-radius: 10px;
+}
+.ahelp{
+  margin-top:10%;
+  font-size:38px;
+  font-weight:550;
+}
+.alearnmore{
+  background-color: transparent;
+  border:1px solid white;
+  border-radius: 5px;
+  color:white;
+  font-size:13px ;
+  padding-left:20px;
+  padding-right:20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.ahome{
+  height:580px;
+  width:88%;
+  margin:auto;
+  margin-top:8%;
+  border-radius: 10px;
+  background-size: 100% 100%;
+  background-image: url("https://a0.muscache.com/im/pictures/8aa32150-e831-40aa-98f5-b743b44c6b27.jpg?im_w=1920");
+}
+.aflexible{
+  border-radius:30px;
+  padding-left:24px;
+  padding-right:24px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border:1px solid transparent;
+}

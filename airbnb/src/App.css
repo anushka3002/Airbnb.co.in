@@ -1,11 +1,8 @@
 .App {
   text-align: center;
+  margin:auto;
 }
 
-#anavbar{
-  width:100%;
-  border:1px solid black;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
