@@ -149,4 +149,37 @@
     font-weight: 600;
     color:rgb(61, 59, 59)
 }
+.a_last_woman_image{
+    margin-top: 8%;
+    width:100%;
+    height:590px;
+}
+.a_hosting_image{
+    width:100%;
+    height:100%;
+    background-size: 100% 100%;
+    background-image: url("https://a0.muscache.com/im/pictures/83f0dc6f-9290-46f6-9db5-339d525b44d1.jpg?im_w=1920");
+}
+.a_questions_hosting{
+    font-size:70px;
+    font-weight:500;
+    margin-right:60%;
+    margin-left: 7%;
+    color:white;
+    line-height:85px;
+    margin-top: 10%;
+}
+.a_superhost_button{
+    margin-left: 7%;
+    background-color: white;
+    padding:15px;
+    padding-left:19px;
+    padding-right:19px;
+    border:1px solid transparent;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color:rgb(34, 33, 33);
+    margin-top: 10%;
+}
 

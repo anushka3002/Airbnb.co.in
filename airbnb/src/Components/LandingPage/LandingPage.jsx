@@ -63,6 +63,15 @@ export const LandingPage =()=>{
             </div>
         </div>
 
+        <div className={Styles.a_last_woman_image}>
+            <div className={Styles.a_hosting_image}>
+                <p className={Styles.a_questions_hosting}>Questions about hosting?</p>
+                <button className={Styles.a_superhost_button}>Ask a Superhost</button>
+            </div>
+        </div>
+
+        
+
         </div>
     )
 }
