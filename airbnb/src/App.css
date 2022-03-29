@@ -2,9 +2,9 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#anavbar{
+  width:100%;
+  border:1px solid black;
 }
 
 @media (prefers-reduced-motion: no-preference) {
