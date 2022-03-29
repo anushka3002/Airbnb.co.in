@@ -182,4 +182,23 @@
     color:rgb(34, 33, 33);
     margin-top: 10%;
 }
+.a_footer_container{
+  width:88%;
+  border:1px solid black;
+  height:400px;
+  margin:auto;
+}
+.a_upper_footer{
+  border:1px solid black;
+  display: flex;
+  margin-top:5%;
+  height:65%;
+  width:100%;
+  gap:2%;
+}
+.a_footer_categories{
+  width:25%;
+  height:100%;
+  border:1px solid black;
+}
 
