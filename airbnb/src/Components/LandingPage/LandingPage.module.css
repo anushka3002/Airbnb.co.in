@@ -16,12 +16,16 @@
   margin:auto;
   margin-top:10%;
   border-radius: 10px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  height:350px;
+  
   text-align: center;
+  border:1px solid transparent;
+}
+.ared_text{
+  margin-top:6%;
+  border:1px solid transparent;
 }
 .ahelp{
-  margin-top:10%;
   font-size:38px;
   font-weight:550;
 }
@@ -46,17 +50,32 @@
   text-align: center;
   background-image: url("https://a0.muscache.com/im/pictures/8aa32150-e831-40aa-98f5-b743b44c6b27.jpg?im_w=1920");
 }
+.a_home_text{
+  font-size:38px;
+  font-weight:550;
+  margin-bottom: 3%;
+}
+.a_home_text_container{
+  padding-top: 30%;
+}
 .aflexible{
   border-radius:30px;
   padding-left:24px;
   padding-right:24px;
   border:1px solid transparent;
   background-color: white;
+  width:10%;
+  margin: auto;
+
 }
-.aflextext{
+#aflextext{
   background: linear-gradient(to right, #6b0b53 0%, #d35ca1 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+  font-size: 18px;
+  margin-top: 17px;
+  margin-bottom: 17px
+
 }
 .ainspiration{
   margin-top: 30%;
@@ -88,7 +107,7 @@
 .a_card_color{
   padding-bottom: 40%;
   margin-top: -13%;
-  height:60px;
+  height:70px;
   color:white;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius:10px ;
@@ -161,13 +180,13 @@
     background-image: url("https://a0.muscache.com/im/pictures/83f0dc6f-9290-46f6-9db5-339d525b44d1.jpg?im_w=1920");
 }
 .a_questions_hosting{
-    font-size:70px;
+    font-size:75px;
     font-weight:500;
     margin-right:60%;
     margin-left: 7%;
     color:white;
     line-height:85px;
-    margin-top: 10%;
+    padding-top:60px;
 }
 .a_superhost_button{
     margin-left: 7%;
@@ -180,5 +199,5 @@
     font-size: 15px;
     font-weight: 600;
     color:rgb(34, 33, 33);
-    margin-top: 10%;
+    margin-top: 6%;
 }

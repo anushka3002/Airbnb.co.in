@@ -5,13 +5,16 @@ export const LandingPage =()=>{
         <div className={Styles.abody}>
             <div className={Styles.ablack}>
                 <div className={Styles.ared}>
+                    <div className={Styles.ared_text}>
                     <p className={Styles.ahelp}>Help house 100,000 refugees fleeing Ukraine</p>
                     <button className={Styles.alearnmore}>Learn more</button>
-                </div>
+                </div></div>
 
             <div className={Styles.ahome}>
-                <p className={Styles.ahelp}>Let your curiosity do the booking</p>
-                <button className={Styles.aflexible}><h4 className={Styles.aflextext}>I'm flexible</h4></button>
+                <div className={Styles.a_home_text_container}>
+                <p className={Styles.a_home_text}>Let your curiosity do the booking</p>
+                </div>
+                <div className={Styles.aflexible}><h4 id={Styles.aflextext}>I'm flexible</h4></div>
             </div></div>
 
         <div className={Styles.places_card_container}>
