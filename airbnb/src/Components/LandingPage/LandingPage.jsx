@@ -70,44 +70,7 @@ export const LandingPage =()=>{
             </div>
         </div>
 
-        <div className={Styles.a_footer_container}>
-            <div className={Styles.a_upper_footer}>
-                <div className={Styles.a_footer_categories}>
-                    <p>Support</p>
-                    <p>Help Centre</p>
-                    <p>Safety information</p>
-                    <p>Cancellation options</p>
-                    <p>Our COVID-19 Response</p>
-                    <p>Supporting people with disabilities</p>
-                    <p>Report a neighbourhood concern</p>
-                </div>
-                <div className={Styles.a_footer_categories}>
-                    <p>Community</p>
-                    <p>Airbnb.org: disaster relief housing</p>
-                    <p>Support Afghan refugees</p>
-                    <p>Combating discrimination</p>
-                </div>
-                <div className={Styles.a_footer_categories}>
-                    <p>Hosting</p>
-                    <p>Try hosting</p>
-                    <p>AirCover: protection for Hosts</p>
-                    <p>Explore hosting resources</p>
-                    <p>Visit our community forum</p>
-                    <p>How to host responsibly</p>
-                </div>
-                <div className={Styles.a_footer_categories}>
-                    <p>About</p>
-                    <p>Newsroom</p>
-                    <p>Learn about new features</p>
-                    <p>Letter from our founders</p>
-                    <p>Careers</p>
-                    <p>Investors</p>
-                    <p>Airbnb Luxe</p>
-                </div>
-            </div>
-        </div>
-        
-
+       
         </div>
     )
 }
