@@ -1,8 +1,37 @@
+/* navbar */
+
+
+.a_upper_header{
+padding-top:12px;
+padding-bottom: 10px;
+width:88%;
+margin: auto;
+/* border:1px solid white; */
+color:white;
+display: flex;
+justify-content: space-between;
+}
+
+.a_hamburger{
+margin-top:7px;
+width:30%;
+height:73%;
+border-radius: 30px;
+background-color: white;
+border:1px solid transparent;
+display: flex;
+color:black;
+border:1px solid rgb(204, 195, 195);
+}
+
+
+
+/* landingpage */
 .ablack{
     color:white;
     background: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0,0,0, .4)), 
     url('https://htmlcolorcodes.com/assets/images/colors/black-color-solid-background-1920x1080.png');
-    height: 155vh;
+    height: 165vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -14,7 +43,7 @@
   background-color: #ff385c;
   width:88%;
   margin:auto;
-  margin-top:10%;
+  margin-top:17%;
   border-radius: 10px;
   height:350px;
   
