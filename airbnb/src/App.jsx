@@ -1,18 +1,18 @@
 import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
+import {Navbar} from "./Components/Navbar/Navbar"
+import { LandingPage } from './Components/LandingPage/LandingPage'
 
-// Importing the components.
-import { Navbar } from "./Components/Flexible/Navbar/Navbar"
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <Navbar>
-      </Navbar>
-    </>
+    <div className="App">
+      <Navbar/>
+      <LandingPage/>
+    </div>
   )
 }
 
