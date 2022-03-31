@@ -2,8 +2,9 @@ import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
 // import {Navbar} from "./Components/Navbar/Navbar"
-import { Navbar } from "./Components/Flexible/Navbar/Navbar"
 import { LandingPage } from './Components/LandingPage/LandingPage'
+import {Footer} from "./Components/Footer/Footer"
+// import { Display } from './Components/Flexible/Display/Display'
 
 
 function App() {
@@ -11,8 +12,9 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar/>
-      {/* <LandingPage/> */}
+      {/* <Navbar/> */}
+      <LandingPage/>
+      <Footer/>
     </div>
   )
 }
