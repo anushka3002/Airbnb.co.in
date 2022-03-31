@@ -1,0 +1,38 @@
+.yGuests{
+    background-color: white;
+    width: 50%;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.yGuest{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.yGuest_data{
+    line-height: 15px;
+}
+.yDetail{
+    font-size: 15px;
+    color: grey;
+}
+
+.yFooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.yClear{
+    text-decoration: underline;
+}
+.yGuest_button{
+    border-radius: 10px;
+    border: none;
+    /* padding: 10px; */
+    background-color: black;
+    color: white;
+}

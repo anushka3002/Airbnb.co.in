@@ -47,4 +47,65 @@
     color: grey;
 }
 
+.yToggle{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin: auto;
+    background-color: #EBEBEB;
+    border-radius: 20px;
+    padding: 1%;
+    margin-top: 20px;
+}
 
+.yDates{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.yDate_buttons
+{   
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.yCalendar_div{
+    text-align: center;
+    margin-top: 20px;
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+}
+.yCalendars{
+    display: flex;
+    overflow-x: scroll;
+}
+
+.yCalendar{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px ;
+    padding-top: 20px;
+
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 10px;
+}
+
+
+.yPick_date{
+    margin: auto;
+    margin-top: 20px;
+}
+.box {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-grow: 1;
+    margin-left: 60%;
+    width: 60%;
+}

@@ -1,0 +1,22 @@
+
+.btn{
+    color: grey;
+    border: none;
+    border-radius: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    align-items: center;
+}
+
+.counterValue{
+    font-size: 20px;
+}
+
+.yCounter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}

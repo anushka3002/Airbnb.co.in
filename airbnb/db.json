@@ -1,23 +1,71 @@
 {
-    "Houses":[
-        {
-            "src":"https://media.nomadicmatt.com/2019/airbnb_breakup3.jpg",
-            "title":"3 Bedroom Flat in Bournemouth",
+    "houses":[
+        {   
+            "id":1,
+            "images":[
+                "https://a0.muscache.com/im/pictures/miso/Hosting-48617245/original/ed9478c6-a3b5-473a-866b-fd4ba2e878fa.jpeg?im_w=960",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-48617245/original/a972672a-c950-4069-b607-88c6e7a934aa.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/45654f2e-0225-4863-a08d-edde1e4a5924.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/43b2201f-f041-4df6-8c02-e2ab467f408d.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/9b4d264d-67ee-4ac2-b932-af857183f5a9.jpg?im_w=720"
+            ],
+            "title":"Jari, Himachal Pradesh",
+            "type":"Farms",
             "description":"Superhost with a stunning view of the beachside in Sunny Bournemouth",
-            "price":"£130/night"
+            "price":"7,814",
+            "distance":"378 Kilometres Away",
+            "date":"7-14 May"
         },
-        {
-            "src":"https://thespaces.com/wp-content/uploads/2017/08/Courtesy-of-Airbnb.jpg",
-            "title":"Penthouse in London",
+        {   
+            "id":2,
+            "images":[
+                "https://a0.muscache.com/im/pictures/27ef3c63-1851-4830-88a6-992f72dd8154.jpg?im_w=960",
+                "https://a0.muscache.com/im/pictures/6056493b-882c-415b-9762-953888ca8e68.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/5aeb6065-63e4-4850-a2b1-2d829da152dd.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/f0b6919a-91a3-4267-a62b-09bc652eae7c.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/01652ee7-c01c-4921-9b35-6de94c69bf2b.jpg?im_w=720"
+            ],
+            "title":"Namwon-eup, Seogwipo-si, Jeju Province, South Korea",
+            "type":"Farms",
             "description":"Enjoy the amazing sights of London with this stunning penthouse",
-            "price":"£350/night"
+            "price":"17,205",
+            "distance":"4,709 Kilometres Away",
+            "date":"15-22 May"
         }
         ,
-        {
-            "src":"https://media.nomadicmatt.com/2018/apartment.jpg",
-            "title":"1 Bedroom apartment",
+        {   
+            "id":3,
+            "images":[
+                "https://a0.muscache.com/im/pictures/65d56117-1499-4d96-92e4-545c2174b9ad.jpg?im_w=960",
+                "https://a0.muscache.com/im/pictures/5e341aa4-53c4-4c96-905b-3de84dedc281.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/c331b020-e481-43c6-990d-8489584d9a17.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/c509c824-a703-4c72-8fc1-d379c5ced558.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/60c57c15-9e26-481e-851e-4873ee650b11.jpg?im_w=720"
+            ],
+            "title":"Kanakamamidi, Telangana, India",
+            "type":"Amazing Pools",
             "description":"Superhost with great amenities and a fabolous shopping complex nearby",
-            "price":"£70/night"
+            "price":"12.838",
+            "distance":"1262 Kilometres Away",
+            "date":"24 Apr - 1 May"
+        },
+        {   
+            "id":4,
+            "images":[
+                "https://a0.muscache.com/im/pictures/35afdd92-83be-4787-9741-6741d2650c5d.jpg?im_w=960",
+                "https://a0.muscache.com/im/pictures/3811037e-7177-462c-a14c-de87ada2f27e.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/e933bc3f-479a-4940-a09e-ba3239ae37ff.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/24f11836-deb3-43eb-881a-da84c36128df.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/4a9baf72-71c5-4c6d-a0a7-c48d802efa43.jpg?im_w=720"
+            ]
+            ,
+            "title":"Fethiye, Muğla, Turkey",
+            "type":"Amazing Pools",
+            "description":"Superhost with a stunning view of the beachside in Sunny Bournemouth",
+            "price":"4,833",
+            "distance":"4,546 Kilometres Away",
+            "date":"1-8 Apr"
         }
+        
     ]
 }
