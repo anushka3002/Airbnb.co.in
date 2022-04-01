@@ -1,0 +1,395 @@
+.d_alpaBody{
+    width: 100%;
+    height: 100%;
+}
+
+.d_body{
+    border-top: 1px solid #dddddd;
+    width: 80%;
+    margin: auto;
+    margin-top: 4%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.d_rating_info{
+    display: flex;
+    gap: 1%;
+}
+
+.d_rating_info > p{
+    margin-top: 2%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+}
+
+.icon{
+    color: tomato;
+    margin-top: 2.3%;
+}
+
+.d_roomInfo{
+    display: flex;
+    border: solid 1px transparent;
+    width: 90%;
+    gap: 3%;
+    height: 150px;
+}
+
+.d_rating_info1{
+    /* border: red 1px dotted; */
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10%;
+}
+
+.d_myInfo > p{
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+ 
+
+.d_myInfo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.forbars{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 72% 20%;
+    grid-gap: 30px;
+}
+
+.bars1{
+    margin-top: 19%;
+    width: 100%;
+    height: 9%;
+    border-radius: 8px;
+    margin-bottom: 0%;
+    margin-left: 5%;
+    background-color: #c3c3c3;
+}
+.bars1 > div{
+    border: black 2px solid;
+    border-radius: 8px;
+    width: 95%;
+}
+
+.bars2{
+    margin-top: 19%;
+    width: 100%;
+    height: 9%;
+    border-radius: 8px;
+    margin-bottom: 0%;
+    margin-left: 5%;
+    background-color: #c3c3c3;
+}
+.div2{
+    border: black 2px solid;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.div2_2{
+    border: black 2px solid;
+    border-radius: 8px;
+    width: 86%;
+}
+
+.bars3{
+    margin-top: 20%;
+    width: 100%;
+    height: 10%;
+    border-radius: 8px;
+    margin-bottom: 0%;
+    margin-left: 5%;
+    background-color: #c3c3c3;
+}
+.bars3 > div{
+    border: black 2px solid;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.d_omg{
+    /* border: 1px solid black; */
+    margin-top: 50%;
+}
+.d_omg1{
+    /* border: 1px solid black; */
+    margin-top:45%;
+    margin-bottom: 10%;
+}
+
+.d_omg2{
+    /* border: 1px solid black; */
+    margin-top: 49%;
+}
+
+.d_rating_info2{
+    /* border: yellow 1px dotted; */
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10%;
+}
+
+
+/* this the comments part */
+.d_comments{
+    width: 100%;
+    height: 820px;
+    border: 1px solid transparent;
+}
+.d_nameComments{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    grid-gap: 10%;
+}
+
+.d_btn{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 20%;
+    left: 2%;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 1% 2%;
+    border-radius: 8px;
+    border: 0.5px solid black;
+}
+
+.d_btn:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: #e7e5e5;
+}
+
+.d_imgName{
+    display: flex;
+}
+
+.d_img{
+    margin: 2%;
+}
+.d_img > img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.d_myName{
+    width: 30%;
+    height: 5%;
+    margin-top: 3%;
+}
+
+.d_myName > h4{
+    margin: 0%;
+    font-weight: lighter;
+}
+.d_myName>span{
+    color: #a8a9ad;
+    font-size: 13px;
+}
+
+.d_dis{
+    padding: 2%;
+    line-height: 130%;
+    margin-bottom: 0px;
+    margin-top: 0%;
+}
+
+.d_nameBox > p{
+    padding: 0% 2%;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* The host area */
+.d_host{
+    width: 100%;
+    border-top: 1px solid gray;
+    height: 400px;
+    margin-top: 4%;
+}
+.d_hostImg{
+    display: flex;
+    height: 20%;
+    margin: 2%;
+}
+.d_hostImg > img{
+    border-radius: 50%;
+}
+.d_hostName{
+    width: 70%;
+    border: solid 1px transparent;
+    padding: 0% 1%;
+}
+.d_hostName > h2{
+    margin-bottom: 0.5%;
+}
+
+.d_hostName > span{
+    color: #6d6d6d;
+    font-size: 14px;
+}
+
+.d_hostInfo{
+    width: 100%;
+    display: grid;
+    grid-template-columns:repeat(2, 40%);
+    grid-gap: 5%;
+}
+
+
+.d_hostIcons{
+    width: 100%;
+    display: flex;
+    gap: 5%;
+    padding: 0% 2%;
+}
+.d_hostIcons>div{
+    /* border: 1px solid green; */
+    width: 50%;
+}
+.d_star{
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #ff385c;
+}
+
+.d_star2{
+    margin-right: 5%;
+    color: #ff385c;
+}
+
+.d_hostDis{
+    padding: 3%;
+}
+.d_hostDis>p{
+    margin-bottom: 0%;
+}
+.d_a{
+    color: black;
+    font-weight: bold;
+}
+
+.d_hostRate{
+    padding: 0% 10%;
+}
+
+.d_hostRate > p{
+    margin: 0%;
+    margin-bottom: 5%;
+}
+
+.d_ratebtn{
+    position: relative;
+    top: 8%;
+    left: 10%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 3%;
+}
+
+.d_ratebtn:hover{
+    cursor: pointer;
+    background-color: #d3d3d3;
+    text-decoration: underline;
+}
+
+.d_hostRatingInfo{
+    width: 70%;
+    display: flex;
+    position: relative;
+    top: 15%;
+    left: 10%;
+}
+
+.d_hostIconsDis{
+    font-size: 12px;
+    margin-left: 10%;
+}
+
+.d_hostIcons2{
+    height: 80%;
+    margin-right: 3%;
+    color: orange;
+}
+
+/* Things to know Part */
+
+.d_toKnow{
+    border-top: 1px solid gray;
+    margin-top: 1%;
+}
+
+.d_toKnowInfo{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-gap: 10px; */
+}
+.d_toKnowInfo > div{
+    border: 1px solid transparent;
+}
+
+.d_toKnowInfo_Sub1{
+    padding: 2% 3%;
+}
+.d_toKnowInfo_Sub1 > p{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.d_toKnowInfo_bull{
+    list-style-type: none;
+    line-height: 240%;
+    position: relative;
+    right: 11%;
+    font-size: 14px;
+}
+.d_toKnowInfo_Sub2{
+    padding: 2% 3%;
+}
+.d_toKnowInfo_Sub2 > p{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.d_footer{
+    width: 100%;
+    height: 300px;
+    border-top: 1px solid rgb(172, 172, 172);
+    border-bottom: 1px solid rgb(172, 172, 172);
+    background-color: whitesmoke;
+}
+
+.d_footer_header{
+    margin: 3% 6%;
+    font-weight:400;
+}
+
+.d_footer_body{
+    display: grid;
+    grid-template-columns: repeat(4, 23%);
+    grid-gap: 10px;
+    margin-left: 6%;
+    margin-bottom: 2%;
+}
+
+.d_footer_body > div > p{
+    color: gray;
+}
+
+.d_footerFinal{
+    margin-left: 6%;
+    font-size: 14px;
+}
