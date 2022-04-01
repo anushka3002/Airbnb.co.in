@@ -5,7 +5,7 @@ import './App.css'
 import { LandingPage } from './Components/LandingPage/LandingPage'
 import {Footer} from "./Components/Footer/Footer"
 // import { Display } from './Components/Flexible/Display/Display'
-
+import { Navbar } from "./Components/Flexible/Navbar/Navbar"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,8 +13,9 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar/> */}
-      <LandingPage/>
-      <Footer/>
+      {/* <LandingPage/>
+      <Footer/> */}
+      <Navbar></Navbar>
     </div>
   )
 }

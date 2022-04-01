@@ -2,12 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
     top: 0;
     z-index: 100;
     padding-left: 2%;
     padding-right: 2%;
-    /* border-bottom: 1px solid rgba(255,255,255,.25); */
     border-bottom: 1px solid grey;
     margin-bottom: 20px;
   }
