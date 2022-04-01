@@ -1,5 +1,6 @@
 import { useStore } from "react-redux";
 import Styles from "./LandingPage.module.css";
+import { Hamburger } from "../Hamburger/Hamburger";
 import { useState } from "react";
 import "./Landing.css"
 
@@ -61,14 +62,7 @@ window.addEventListener("scroll",changeNavbar)
                     <div className={become_host?"a_right_nav active":"a_right_nav"}>
                     <p>Become a host</p>
                     <div className={globe?"globe_logo active":"globe_logo"}></div>
-                    <div className={Styles.a_hamburger}>
-                        <div>
-                            <img style={{paddingTop:"10px",marginLeft:"10px"}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe2qzjGHx362VfxQWKWwi2GCEoyqUnsRIm9jEF2oIlWx6Z76KjowacdQTq8s4UfonUSnA&usqp=CAU" width="20px"></img>
-                        </div>
-                        <div>
-                            <img style={{borderRadius:"50%"}} src="https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-default-avatar-profile-icon-vector-social-media-user-image-vector-illustration-227787227.jpg" width="39px" height="36px"></img>
-                        </div>
-                    </div>
+                    <Hamburger/>
                     </div>
             
             </div>
