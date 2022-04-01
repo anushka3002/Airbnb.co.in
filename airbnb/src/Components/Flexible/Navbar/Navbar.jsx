@@ -1,14 +1,22 @@
 import "./Navbar.css"
+
+import { useState } from "react";
 import { FaBars } from "react-icons/fa"
 import { FaUserCircle } from "react-icons/fa";
-import { FaGlobe } from "react-icons/fa";
-
-import { Filters } from "../Filters/Filters";
-import { Card } from "../Card/Card";
-import 'bootstrap/dist/css/bootstrap.css';
 import LanguageIcon from "@material-ui/icons/Language";
 
+
+
+import { Filters } from "../Filters/Filters";
+import { Display } from "../Display/Display";
+
+import 'bootstrap/dist/css/bootstrap.css';
 export const Navbar = ()=>{
+    const [filter,setValue] = useState("Farms");
+    const setFilter = (value)=>{
+        setValue(value)
+    }
+
     return (
         <>
             <div className='header'>
@@ -27,7 +35,8 @@ export const Navbar = ()=>{
                 </div>
             </div>
 
-        <Filters></Filters>
+        <Filters fn={setFilter}></Filters>
+        <Display value={filter}></Display>
         </>
         
     )

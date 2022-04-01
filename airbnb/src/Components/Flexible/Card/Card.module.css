@@ -1,0 +1,44 @@
+.yCard {
+  margin: 10px;
+  overflow: hidden;
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+  border-radius: 5%;
+}
+  
+  .yDisplay_img {
+    border-radius: 5%;
+    object-fit: fill;
+    min-width: 300px;
+    height: 300px;
+    width: 100%;
+  }
+  
+  .yCard_info {
+      margin-top: -9px;
+      padding-top: 20px;
+      border: 1;
+    }
+  .yCard_info>div{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .yTitle{
+      overflow: hidden;
+      white-space:nowrap;
+      text-overflow:ellipsis;
+      width: 40%;
+      display:inline-block;
+
+      font-weight: 500;
+  }
+
+  img {
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+  
+    /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+    image-rendering: -webkit-optimize-contrast;
+  }  

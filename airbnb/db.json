@@ -1,23 +1,218 @@
 {
-    "Houses":[
-        {
-            "src":"https://media.nomadicmatt.com/2019/airbnb_breakup3.jpg",
-            "title":"3 Bedroom Flat in Bournemouth",
+    "houses":[
+        {   
+            "id":1,
+            "images":[
+                "https://a0.muscache.com/im/pictures/miso/Hosting-48617245/original/ed9478c6-a3b5-473a-866b-fd4ba2e878fa.jpeg?im_w=960",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-48617245/original/a972672a-c950-4069-b607-88c6e7a934aa.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/45654f2e-0225-4863-a08d-edde1e4a5924.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/43b2201f-f041-4df6-8c02-e2ab467f408d.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/9b4d264d-67ee-4ac2-b932-af857183f5a9.jpg?im_w=720"
+            ],
+            "title":"Jari, Himachal Pradesh",
+            "title2": "LAPUTA VILLA - The Bamboo Castle in the Sky",
+            "type":"Farms",
             "description":"Superhost with a stunning view of the beachside in Sunny Bournemouth",
-            "price":"£130/night"
+            "price":"7,814/night",
+            "distance":"378 Kilometres Away",
+            "date":"7-14 May"
         },
-        {
-            "src":"https://thespaces.com/wp-content/uploads/2017/08/Courtesy-of-Airbnb.jpg",
-            "title":"Penthouse in London",
+        {   
+            "id":2,
+            "images":[
+                "https://a0.muscache.com/im/pictures/27ef3c63-1851-4830-88a6-992f72dd8154.jpg?im_w=960",
+                "https://a0.muscache.com/im/pictures/6056493b-882c-415b-9762-953888ca8e68.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/5aeb6065-63e4-4850-a2b1-2d829da152dd.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/f0b6919a-91a3-4267-a62b-09bc652eae7c.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/01652ee7-c01c-4921-9b35-6de94c69bf2b.jpg?im_w=720"
+            ],
+            "title":"Namwon-eup, Seogwipo-si, Jeju Province, South Korea",
+            "title2":"LAPUTA VILLA - The Bamboo Castle in the Sky",
+            "type":"Farms",
             "description":"Enjoy the amazing sights of London with this stunning penthouse",
-            "price":"£350/night"
+            "price":"17,205/night",
+            "distance":"4,709 Kilometres Away",
+            "date":"15-22 May"
         }
         ,
-        {
-            "src":"https://media.nomadicmatt.com/2018/apartment.jpg",
-            "title":"1 Bedroom apartment",
+        {   
+            "id":3,
+            "images":[
+                "https://a0.muscache.com/im/pictures/65d56117-1499-4d96-92e4-545c2174b9ad.jpg?im_w=960",
+                "https://a0.muscache.com/im/pictures/5e341aa4-53c4-4c96-905b-3de84dedc281.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/c331b020-e481-43c6-990d-8489584d9a17.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/c509c824-a703-4c72-8fc1-d379c5ced558.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/60c57c15-9e26-481e-851e-4873ee650b11.jpg?im_w=720"
+            ],
+            "title":"Kanakamamidi, Telangana, India",
+            "title2":"LAPUTA VILLA - The Bamboo Castle in the Sky",
+            "type":"Amazing pools",
             "description":"Superhost with great amenities and a fabolous shopping complex nearby",
-            "price":"£70/night"
+            "price":"12,838/night",
+            "distance":"1262 Kilometres Away",
+            "date":"24 Apr - 1 May"
+        },
+        {   
+            "id":4,
+            "images":[
+                "https://a0.muscache.com/im/pictures/35afdd92-83be-4787-9741-6741d2650c5d.jpg?im_w=960",
+                "https://a0.muscache.com/im/pictures/3811037e-7177-462c-a14c-de87ada2f27e.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/e933bc3f-479a-4940-a09e-ba3239ae37ff.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/24f11836-deb3-43eb-881a-da84c36128df.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/4a9baf72-71c5-4c6d-a0a7-c48d802efa43.jpg?im_w=720"
+            ]
+            ,
+            "title":"Fethiye, Muğla, Turkey",
+            "title2": "LAPUTA VILLA - The Bamboo Castle in the Sky",
+            "type":"Amazing pools",
+            "description":"Superhost with a stunning view of the beachside in Sunny Bournemouth",
+            "price":"4,833/night",
+            "distance":"4,546 Kilometres Away",
+            "date":"1-8 Apr"
+        },
+        {   
+            "id":5,
+            "images":[
+                "https://a0.muscache.com/im/pictures/488d14b0-2ca8-4ab0-8624-a11120f5fc20.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/f77f5a36-4dfa-4a47-b617-4d1ce97c2e51.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/8958330e-d0a3-40a1-8b16-3862d2e6a2af.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/be266195-da53-438a-9cc9-55bf1decc5ea.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/cfcb1425-bf9c-4f63-82d9-287aa8a7c293.jpg?im_w=720"
+            ]
+            ,
+            "title":"Kecamatan Ubud, Bali",
+            "title2": "-70%- Elegant & luxurious 3 BR villa rice-fields pano",
+            "type":"Amazing pools",
+            "description":"Entire villa hosted by Alfred",
+            "price":"10,833/night",
+            "distance":"4,800 Kilometres Away",
+            "date":"4-11 Apr"
+        },
+        {   
+            "id":6,
+            "images":[
+                "https://a0.muscache.com/im/pictures/miso/Hosting-48617245/original/ed9478c6-a3b5-473a-866b-fd4ba2e878fa.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-48617245/original/a972672a-c950-4069-b607-88c6e7a934aa.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/43b2201f-f041-4df6-8c02-e2ab467f408d.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/45654f2e-0225-4863-a08d-edde1e4a5924.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/9b4d264d-67ee-4ac2-b932-af857183f5a9.jpg?im_w=720"
+            ]
+            ,
+            "title":"Jari, Himachal Pradesh",
+            "title2": "A Cozy Dome & Attic in Parvati Valley | Itsy Bitsy",
+            "type":"Beachfront",
+            "description":"Dome hosted by Rachana",
+            "price":"7,814/night",
+            "distance":"2,115 Kilometres Away",
+            "date":"7-14 May"
+        },
+        {   
+            "id":7,
+            "images":[
+                "https://a0.muscache.com/im/pictures/c9ba92a2-12ab-467d-a697-d35f8321de8f.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/edbf1e0a-7d79-4265-99ed-ee99afe0bba0.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/38bdde0b-ff0c-45d8-ac27-73f6c84b4115.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/73caa0bd-6005-4b86-af3c-b920abd54cbb.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/1054880f-ec0b-4391-8e40-58423bbf0c93.jpg?im_w=720"
+            ]
+            ,
+            "title":"Bunutan, Abang",
+            "title2": ">Green CoCo House no.3 with a starry shower<",
+            "type":"Beachfront",
+            "description":"Entire bungalow hosted by Putu",
+            "price":"1,433/night",
+            "distance":"4,831 Kilometres Away",
+            "date":"15-22 Apr"
+        },
+        {   
+            "id":8,
+            "images":[
+                "https://a0.muscache.com/im/pictures/5b78914b-f2fb-4626-9777-9b24035e5c8e.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/6499fcd7-0693-43f7-89aa-9d645518f263.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/5d86ce05-1231-4446-8be7-b3fd674558cd.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/989c6b1c-d073-4c46-bf56-7b1dab7eef44.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/85dacf85-0cd6-49e0-8757-0c6bf56e3f22.jpg?im_w=720"
+            ]
+            ,
+            "title":"Tegalallang Gianyar, Bali",
+            "title2": "NewEarth Haven - Moonstone Crystal Eco Dome",
+            "type":"Offbeat",
+            "description":"Dome hosted by NewEarth Haven",
+            "price":"5,336/night",
+            "distance":"4,796 Kilometres Away",
+            "date":"1-8 Apr"
+        },
+        {   
+            "id":9,
+            "images":[
+                "https://a0.muscache.com/im/pictures/miso/Hosting-47501584/original/980b18d0-e294-40bf-b891-3d6bd8edf78c.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/3ee4ef1b-606d-46c6-9b40-a9137124c780.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-47501584/original/a77941c2-64e4-4275-89fe-8ac8bc1c6af8.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-47501584/original/ace93c6d-44ad-499c-a9a9-f668e3534124.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/50e3acee-8c9d-4b79-8938-ff9e63137c0e.jpg?im_w=720"
+            ]
+            ,
+            "title":"Kecamatan Ubud, Bali",
+            "title2": "50% OFF | Ipian Cinta with Private Pool jacuzzi",
+            "type":"Cabins",
+            "description":"Hut hosted by Leon",
+            "price":"4,830/night",
+            "distance":"4,797 Kilometres Away",
+            "date":"15-22 Oct"
+        },
+        {   
+            "id":10,
+            "images":[
+                "https://a0.muscache.com/im/pictures/56885337-e55d-4b06-baf3-40aa45015834.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/3c5ada07-19cc-4b6e-9156-6c24760275a3.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/f2565b7d-b3c6-4cd4-8e29-56f2da6ba5ad.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/26af23f4-b2d6-4dae-9bd9-31263ef78bc5.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/cfcb1425-bf9c-4f63-82d9-287aa8a7c293.jpg?im_w=720"
+            ]
+            ,
+            "title":"Kuta Ubud, Bali",
+            "title2": "Luxury Honeymoon nest jacuzzi, pool, 1BR villa",
+            "type":"Cabins",
+            "description":"Entire villa hosted by Mark",
+            "price":"12,853/night",
+            "distance":"4,794 Kilometres Away",
+            "date":"1-8 May"
+        },
+        {   
+            "id":11,
+            "images":[
+                "https://a0.muscache.com/im/pictures/miso/Hosting-43643578/original/fd836233-2dd2-4e3c-9d25-f744d2029128.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-43643578/original/3bf72b19-15f9-45af-ba82-3358772d6648.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/4b357824-bf89-4190-bce1-256a4db34a05.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/57e69a9e-b022-4906-8eea-4951777aea7f.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/9659376f-7746-495f-a6dc-65972dda3e1b.jpg?im_w=720"
+            ]
+            ,
+            "title":"Kecamatan Mengwi, Bali",
+            "title2": "SOFT LAUNCH SPECIAL Designer Treehouse Loft Canggu",
+            "type":"Treehouses",
+            "description":"Treehouse hosted by Stilt",
+            "price":"5,833/night",
+            "distance":"4,796 Kilometres Away",
+            "date":"7-14 May"
+        },
+        {   
+            "id":12,
+            "images":[
+                "https://a0.muscache.com/im/pictures/960cbd39-b1a8-4c1f-902c-bb9e8c71439a.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/6bbbe25d-776b-4ac4-98fa-80e8dc9572b0.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/d79635e2-c7fc-4c89-8d1a-59a8f2d1b661.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/d4b60d36-832b-42b9-9285-c462307dabc5.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/8ad9469d-c9fc-4039-8efd-314987c14a50.jpg?im_w=720"
+            ]
+            ,
+            "title":"Pune, Maharashtra",
+            "title2": "Sunnyside Cottage with lake view",
+            "type":"Treehouses",
+            "description":"Private room in resort hosted by Pranit",
+            "price":"6,747/night",
+            "distance":"774 Kilometres Away",
+            "date":"16-23 Apr"
         }
     ]
 }
