@@ -10,9 +10,10 @@
                 "https://a0.muscache.com/im/pictures/9b4d264d-67ee-4ac2-b932-af857183f5a9.jpg?im_w=720"
             ],
             "title":"Jari, Himachal Pradesh",
+            "title2": "LAPUTA VILLA - The Bamboo Castle in the Sky",
             "type":"Farms",
             "description":"Superhost with a stunning view of the beachside in Sunny Bournemouth",
-            "price":"7,814",
+            "price":"7,814/night",
             "distance":"378 Kilometres Away",
             "date":"7-14 May"
         },
@@ -26,9 +27,10 @@
                 "https://a0.muscache.com/im/pictures/01652ee7-c01c-4921-9b35-6de94c69bf2b.jpg?im_w=720"
             ],
             "title":"Namwon-eup, Seogwipo-si, Jeju Province, South Korea",
+            "title2":"LAPUTA VILLA - The Bamboo Castle in the Sky",
             "type":"Farms",
             "description":"Enjoy the amazing sights of London with this stunning penthouse",
-            "price":"17,205",
+            "price":"17,205/night",
             "distance":"4,709 Kilometres Away",
             "date":"15-22 May"
         }
@@ -43,9 +45,10 @@
                 "https://a0.muscache.com/im/pictures/60c57c15-9e26-481e-851e-4873ee650b11.jpg?im_w=720"
             ],
             "title":"Kanakamamidi, Telangana, India",
+            "title2":"LAPUTA VILLA - The Bamboo Castle in the Sky",
             "type":"Amazing Pools",
             "description":"Superhost with great amenities and a fabolous shopping complex nearby",
-            "price":"12.838",
+            "price":"12,838/night",
             "distance":"1262 Kilometres Away",
             "date":"24 Apr - 1 May"
         },
@@ -60,12 +63,156 @@
             ]
             ,
             "title":"Fethiye, Muğla, Turkey",
+            "title2": "LAPUTA VILLA - The Bamboo Castle in the Sky",
             "type":"Amazing Pools",
             "description":"Superhost with a stunning view of the beachside in Sunny Bournemouth",
-            "price":"4,833",
+            "price":"4,833/night",
             "distance":"4,546 Kilometres Away",
             "date":"1-8 Apr"
+        },
+        {   
+            "id":5,
+            "images":[
+                "https://a0.muscache.com/im/pictures/488d14b0-2ca8-4ab0-8624-a11120f5fc20.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/f77f5a36-4dfa-4a47-b617-4d1ce97c2e51.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/8958330e-d0a3-40a1-8b16-3862d2e6a2af.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/be266195-da53-438a-9cc9-55bf1decc5ea.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/cfcb1425-bf9c-4f63-82d9-287aa8a7c293.jpg?im_w=720"
+            ]
+            ,
+            "title":"Kecamatan Ubud, Bali",
+            "title2": "-70%- Elegant & luxurious 3 BR villa rice-fields pano",
+            "type":"Amazing Pools",
+            "description":"Entire villa hosted by Alfred",
+            "price":"10,833/night",
+            "distance":"4,800 Kilometres Away",
+            "date":"4-11 Apr"
+        },
+        {   
+            "id":6,
+            "images":[
+                "https://a0.muscache.com/im/pictures/miso/Hosting-48617245/original/ed9478c6-a3b5-473a-866b-fd4ba2e878fa.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-48617245/original/a972672a-c950-4069-b607-88c6e7a934aa.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/43b2201f-f041-4df6-8c02-e2ab467f408d.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/45654f2e-0225-4863-a08d-edde1e4a5924.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/9b4d264d-67ee-4ac2-b932-af857183f5a9.jpg?im_w=720"
+            ]
+            ,
+            "title":"Jari, Himachal Pradesh",
+            "title2": "A Cozy Dome & Attic in Parvati Valley | Itsy Bitsy",
+            "type":"Amazing Pools",
+            "description":"Dome hosted by Rachana",
+            "price":"7,814/night",
+            "distance":"2,115 Kilometres Away",
+            "date":"7-14 May"
+        },
+        {   
+            "id":7,
+            "images":[
+                "https://a0.muscache.com/im/pictures/c9ba92a2-12ab-467d-a697-d35f8321de8f.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/edbf1e0a-7d79-4265-99ed-ee99afe0bba0.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/38bdde0b-ff0c-45d8-ac27-73f6c84b4115.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/73caa0bd-6005-4b86-af3c-b920abd54cbb.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/1054880f-ec0b-4391-8e40-58423bbf0c93.jpg?im_w=720"
+            ]
+            ,
+            "title":"Bunutan, Abang",
+            "title2": ">Green CoCo House no.3 with a starry shower<",
+            "type":"Amazing pools",
+            "description":"Entire bungalow hosted by Putu",
+            "price":"1,433/night",
+            "distance":"4,831 Kilometres Away",
+            "date":"15-22 Apr"
+        },
+        {   
+            "id":8,
+            "images":[
+                "https://a0.muscache.com/im/pictures/5b78914b-f2fb-4626-9777-9b24035e5c8e.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/6499fcd7-0693-43f7-89aa-9d645518f263.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/5d86ce05-1231-4446-8be7-b3fd674558cd.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/989c6b1c-d073-4c46-bf56-7b1dab7eef44.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/85dacf85-0cd6-49e0-8757-0c6bf56e3f22.jpg?im_w=720"
+            ]
+            ,
+            "title":"Tegalallang Gianyar, Bali",
+            "title2": "NewEarth Haven - Moonstone Crystal Eco Dome",
+            "type":"Amazing Pools",
+            "description":"Dome hosted by NewEarth Haven",
+            "price":"5,336/night",
+            "distance":"4,796 Kilometres Away",
+            "date":"1-8 Apr"
+        },
+        {   
+            "id":9,
+            "images":[
+                "https://a0.muscache.com/im/pictures/miso/Hosting-47501584/original/980b18d0-e294-40bf-b891-3d6bd8edf78c.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/3ee4ef1b-606d-46c6-9b40-a9137124c780.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-47501584/original/a77941c2-64e4-4275-89fe-8ac8bc1c6af8.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-47501584/original/ace93c6d-44ad-499c-a9a9-f668e3534124.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/50e3acee-8c9d-4b79-8938-ff9e63137c0e.jpg?im_w=720"
+            ]
+            ,
+            "title":"Kecamatan Ubud, Bali",
+            "title2": "50% OFF | Ipian Cinta with Private Pool jacuzzi",
+            "type":"Amazing View Points",
+            "description":"Hut hosted by Leon",
+            "price":"4,830/night",
+            "distance":"4,797 Kilometres Away",
+            "date":"15-22 Oct"
+        },
+        {   
+            "id":10,
+            "images":[
+                "https://a0.muscache.com/im/pictures/56885337-e55d-4b06-baf3-40aa45015834.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/3c5ada07-19cc-4b6e-9156-6c24760275a3.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/f2565b7d-b3c6-4cd4-8e29-56f2da6ba5ad.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/26af23f4-b2d6-4dae-9bd9-31263ef78bc5.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/cfcb1425-bf9c-4f63-82d9-287aa8a7c293.jpg?im_w=720"
+            ]
+            ,
+            "title":"Kuta Ubud, Bali",
+            "title2": "Luxury Honeymoon nest jacuzzi, pool, 1BR villa",
+            "type":"Amazing View Points",
+            "description":"Entire villa hosted by Mark",
+            "price":"12,853/night",
+            "distance":"4,794 Kilometres Away",
+            "date":"1-8 May"
+        },
+        {   
+            "id":11,
+            "images":[
+                "https://a0.muscache.com/im/pictures/488d14b0-2ca8-4ab0-8624-a11120f5fc20.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/f77f5a36-4dfa-4a47-b617-4d1ce97c2e51.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/8958330e-d0a3-40a1-8b16-3862d2e6a2af.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/be266195-da53-438a-9cc9-55bf1decc5ea.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/cfcb1425-bf9c-4f63-82d9-287aa8a7c293.jpg?im_w=720"
+            ]
+            ,
+            "title":"Kecamatan Ubud, Bali",
+            "title2": "-70%- Elegant & luxurious 3 BR villa rice-fields pano",
+            "type":"Amazing View Points",
+            "description":"Entire villa hosted by Alfred",
+            "price":"10,833/night",
+            "distance":"4,800 Kilometres Away",
+            "date":"4-11 Apr"
+        },
+        {   
+            "id":12,
+            "images":[
+                "https://a0.muscache.com/im/pictures/488d14b0-2ca8-4ab0-8624-a11120f5fc20.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/f77f5a36-4dfa-4a47-b617-4d1ce97c2e51.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/8958330e-d0a3-40a1-8b16-3862d2e6a2af.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/be266195-da53-438a-9cc9-55bf1decc5ea.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/cfcb1425-bf9c-4f63-82d9-287aa8a7c293.jpg?im_w=720"
+            ]
+            ,
+            "title":"Kecamatan Ubud, Bali",
+            "title2": "-70%- Elegant & luxurious 3 BR villa rice-fields pano",
+            "type":"Amazing View Points",
+            "description":"Entire villa hosted by Alfred",
+            "price":"10,833/night",
+            "distance":"4,800 Kilometres Away",
+            "date":"4-11 Apr"
         }
-        
     ]
 }
