@@ -10,6 +10,18 @@ import {
   faSmoking,
   faSprayCan,
   faExclamationCircle,
+  faLocationDot,
+  faBookmark,
+  faBedPulse,
+  faWifi,
+  faSnowflake,
+  faBellSlash,
+  faTv,
+  faBowlFood,
+  faCalendar,
+  faBanSmoking,
+  faArrowUpFromBracket,
+  faHeart
 } from "@fortawesome/free-solid-svg-icons";
 import WebFont from "webfontloader";
 import { useEffect } from "react";
@@ -24,6 +36,140 @@ export const MyFD = () => {
   }, []);
   return (
     <div className={Styles.d_alpaBody}>
+      <div className={Styles.d_reactBody}>
+        <div className={Styles.d_reactTitle}>
+            <div className={Styles.d_reactTitle1}>Title</div>
+            <div className={Styles.d_reactTitle2}>
+                <div className={Styles.d_titleSpacing}>
+                  <FontAwesomeIcon icon={faStar} size="xs" className={Styles.d_reactTitle2_icon}/>
+                  <p>4.67.</p>
+                  <p className={Styles.d_titleSpacing2}>52 reviews</p>
+                </div>
+                <div className={Styles.d_titleSpacing}>
+                    <button className={Styles.d_reactSharebtn}><FontAwesomeIcon icon={faArrowUpFromBracket} size="xs"/> Share</button>
+                    <button className={Styles.d_reactSharebtn}><FontAwesomeIcon icon={faHeart} size="xs"/> Save</button>
+                </div>
+            </div>
+        </div>
+        <div className={Styles.d_mainImg}></div>
+        <div className={Styles.d_reactDes}>
+          <div className={Styles.d_leftDes}>
+            <div className={Styles.d_leftInfo}>
+              <div className={Styles.d_leftLoc}>
+                <div className={Styles.d_leftIcon}>
+                  <FontAwesomeIcon icon={faLocationDot} />
+                </div>
+                <div className={Styles.d_leftName}>
+                  <span>Great location</span>
+                  <p className={Styles.d_leftp}>
+                    93% of recent guests gave the location a 5-star rating.
+                  </p>
+                </div>
+              </div>
+              <div className={Styles.d_leftLoc}>
+                <div className={Styles.d_leftIcon}>
+                  <FontAwesomeIcon icon={faBookmark} />
+                </div>
+                <div className={Styles.d_leftName}>
+                  <span>Wifi</span>
+                  <p className={Styles.d_leftp}>
+                    Guests often search for this popular amenity
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className={Styles.d_hotelInfo}>
+              <p>
+                A grown-up, sophisticated version of your favorite childhood
+                treehouse. By elevating our studio on stilts, we maximize views
+                up top while leaving the ground below minimally impacted to
+                honour our philosophy of treading lightly on the Earth. Our
+                breezy elevated structures offer a unique off-the-ground
+                experience that emphasizes natural light and plays with space to
+                create a stunning framework for...
+              </p>
+              <p className={Styles.d_showMoreIcon}>
+                Show More <FontAwesomeIcon icon={faAngleRight} />{" "}
+              </p>
+            </div>
+            <div className={Styles.d_bedRoom}>
+              <h2>Where you'll sleep</h2>
+              <div className={Styles.d_bedRoomIcon}>
+                <FontAwesomeIcon icon={faBedPulse} />
+                <h4>Bedroom</h4>
+                <p>1 double bed</p>
+              </div>
+            </div>
+            <div className={Styles.d_reactPlace}>
+              <h2>What this place offers</h2>
+              <div className={Styles.d_moreDetails}>
+                <div>
+                  <p>
+                    <FontAwesomeIcon
+                      icon={faWifi}
+                      className={Styles.d_moreDetailsIcons}
+                    />
+                    Wifi
+                  </p>
+                  <p>
+                    <FontAwesomeIcon
+                      icon={faSnowflake}
+                      className={Styles.d_moreDetailsIcons}
+                    />
+                    Air conditioning
+                  </p>
+                  <p>
+                    <FontAwesomeIcon
+                      icon={faSmoking}
+                      className={Styles.d_moreDetailsIcons}
+                    />
+                    Smoking allowed
+                  </p>
+                  <p className={Styles.d_moreDetails1}>
+                    <FontAwesomeIcon
+                      icon={faBellSlash}
+                      className={Styles.d_moreDetailsIcons1}
+                    />
+                    Carbon monoxide alarm
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    <FontAwesomeIcon
+                      icon={faTv}
+                      className={Styles.d_moreDetailsIcons}
+                    />
+                    TV
+                  </p>
+                  <p>
+                    <FontAwesomeIcon
+                      icon={faBowlFood}
+                      className={Styles.d_moreDetailsIcons}
+                    />
+                    Breakfast
+                  </p>
+                  <p>
+                    <FontAwesomeIcon
+                      icon={faCalendar}
+                      className={Styles.d_moreDetailsIcons}
+                    />
+                    Long-term stays allowed
+                  </p>
+                  <p className={Styles.d_moreDetails1}>
+                    <FontAwesomeIcon
+                      icon={faBanSmoking}
+                      className={Styles.d_moreDetailsIcons1}
+                    />
+                    Smoke alarm
+                  </p>
+                </div>
+              </div>
+              <button className={Styles.d_moreDetails_btn}>Show more amenities</button>
+            </div>
+          </div>
+          <div className={Styles.d_rightDes}></div>
+        </div>
+      </div>
       <div className={Styles.d_body}>
         {/* this is the rating part */}
         <div className={Styles.d_rating}>
@@ -216,9 +362,7 @@ export const MyFD = () => {
           <button className={Styles.d_btn}>Show all 277 reviews</button>
         </div>
         {/* This is for the maps area */}
-        <div>
-
-        </div>
+        <div></div>
 
         {/* This is the Hosted by area */}
         <div className={Styles.d_host}>
@@ -356,30 +500,37 @@ export const MyFD = () => {
       </div>
       {/* This is my footer */}
       <div className={Styles.d_footer}>
-          <h2 className={Styles.d_footer_header}>Explore other options in and around Ubud</h2>
-          <div className={Styles.d_footer_body}>
-              <div>
-                  <p>Canggu Beach</p>
-                  <p>Sanur</p>
-                  <p>Nusa Dua Beach</p>
-              </div>
-              <div>
-                  <p>Seminyak Beach</p>
-                  <p>Penida Island</p>
-                  <p>Nusa Lembongan</p>
-              </div>
-              <div>
-                  <p>Lombok</p>
-                  <p>Gili Trawangan</p>
-                  <p>Gili Islands</p>
-              </div>
-              <div>
-                  <p>Denpasar</p>
-                  <p>Bingin Beach</p>
-                  <p>Ubud</p>
-              </div>
+        <h2 className={Styles.d_footer_header}>
+          Explore other options in and around Ubud
+        </h2>
+        <div className={Styles.d_footer_body}>
+          <div>
+            <p>Canggu Beach</p>
+            <p>Sanur</p>
+            <p>Nusa Dua Beach</p>
           </div>
-          <span className={Styles.d_footerFinal}>Airbnb <FontAwesomeIcon icon={faAngleRight} /> Indonesia <FontAwesomeIcon icon={faAngleRight} /> Bali <FontAwesomeIcon icon={faAngleRight} /> Gianyar Regency <FontAwesomeIcon icon={faAngleRight} /> Gianyar Regency</span>   
+          <div>
+            <p>Seminyak Beach</p>
+            <p>Penida Island</p>
+            <p>Nusa Lembongan</p>
+          </div>
+          <div>
+            <p>Lombok</p>
+            <p>Gili Trawangan</p>
+            <p>Gili Islands</p>
+          </div>
+          <div>
+            <p>Denpasar</p>
+            <p>Bingin Beach</p>
+            <p>Ubud</p>
+          </div>
+        </div>
+        <span className={Styles.d_footerFinal}>
+          Airbnb <FontAwesomeIcon icon={faAngleRight} /> Indonesia{" "}
+          <FontAwesomeIcon icon={faAngleRight} /> Bali{" "}
+          <FontAwesomeIcon icon={faAngleRight} /> Gianyar Regency{" "}
+          <FontAwesomeIcon icon={faAngleRight} /> Gianyar Regency
+        </span>
       </div>
     </div>
   );

@@ -4,6 +4,7 @@ import './App.css'
 // import {Navbar} from "./Components/Navbar/Navbar"
 import { LandingPage } from './Components/LandingPage/LandingPage'
 import {Footer} from "./Components/Footer/Footer"
+import { MyFD } from './Components/FlexibleDetails/FlexibleDetails'
 // import { Display } from './Components/Flexible/Display/Display'
 
 
@@ -13,7 +14,8 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar/> */}
-      <LandingPage/>
+      {/* <LandingPage/> */}
+      <MyFD/>
       <Footer/>
     </div>
   )
