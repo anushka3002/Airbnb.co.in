@@ -1,4 +1,4 @@
-import { useStore } from "react-redux";
+// import { useStore } from "react-redux";
 import Styles from "./LandingPage.module.css";
 import { Hamburger } from "../Hamburger/Hamburger";
 import { useState } from "react";
@@ -102,7 +102,7 @@ window.addEventListener("scroll",changeNavbar)
                 <div className={Styles.a_home_text_container}>
                 <p className={Styles.a_home_text}>Let your curiosity do the booking</p>
                 </div>
-                <div className={Styles.aflexible}><h4 id={Styles.aflextext}>I'm flexible</h4></div>
+                <Link to={"./flexible"}><div className={Styles.aflexible}><h4 id={Styles.aflextext}>I'm flexible</h4></div></Link>
             </div></div>
 
         <div className={Styles.places_card_container}>

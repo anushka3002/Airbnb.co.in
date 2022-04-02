@@ -5,7 +5,7 @@ import './App.css'
 import { LandingPage } from './Components/LandingPage/LandingPage'
 import {Footer} from "./Components/Footer/Footer"
 
-import { MyFD } from './Components/FlexibleDetails/FlexibleDetails'
+// import { MyFD } from './Components/FlexibleDetails/FlexibleDetails'
 
 import { Singup } from './Components/LoginSignup/Signup'
 import { Host } from './Components/Become_a_host/Host'
@@ -14,7 +14,7 @@ import { CardComponent } from './Components/Places_card/Travel_card'
 import { Routers } from './Components/Routers/router'
 
 // import { Display } from './Components/Flexible/Display/Display'
-import { Navbar } from "./Components/Flexible/Navbar/Navbar"
+// import { Navbar } from "./Components/Flexible/Navbar/Navbar"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,9 +29,9 @@ function App() {
       <Routers/>
       {/* <Singup/> */}
       {/* <Host/> */}
-      <Footer/>
+      {/* <Footer/> */}
 
-      <MyFD/>
+      {/* <MyFD/> */}
       <Footer/>
 
     </div>
