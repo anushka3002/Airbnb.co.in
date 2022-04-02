@@ -4,7 +4,6 @@ import { Hamburger } from "../Hamburger/Hamburger";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Landing.css"
-
 export const LandingPage =()=>{
 
 const [navbar,setNavbar]=useState(false)
