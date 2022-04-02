@@ -1,4 +1,5 @@
 import Styles from "./Signup.module.css"
+import {Google_auth} from "./Google_auth"
 
 export const Singup=()=>
 {
@@ -253,7 +254,8 @@ export const Singup=()=>
                 </div>
                 <div className={Styles.a_signup_options}>
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1024px-Google_%22G%22_Logo.svg.png" width="20px" height="20px"></img>
-                    <p>Continue with Google</p>
+                    {/* <p>Continue with Google</p> */}
+					<Google_auth/>
                     <div className={Styles.login_option_right_space}></div>
                 </div>
                 <div className={Styles.a_signup_options}>

@@ -4,6 +4,7 @@ import './App.css'
 import { LandingPage } from './Components/LandingPage/LandingPage'
 import {Footer} from "./Components/Footer/Footer"
 
+
 // import { MyFD } from './Components/FlexibleDetails/FlexibleDetails'
 
 import { Singup } from './Components/LoginSignup/Signup'
@@ -12,6 +13,7 @@ import { Host } from './Components/Become_a_host/Host'
 import { CardComponent } from './Components/Places_card/Travel_card'
 import { Routers } from './Components/Routers/router'
 import { Ukraine } from './Components/Ukraine/Ukraine'
+// import {Google_auth} from "./Components/LoginSignup/Google_auth"
 
 // <<<<<<< HEAD
 // import { Display } from './Components/Flexible/Display/Display'
@@ -30,14 +32,14 @@ function App() {
       {/* <CardComponent/> */}
       {/* <LandingPage/> */}
 
-      <Routers/>
-      {/* <Singup/> */}
+      {/* <Routers/> */}
+      <Singup/>
       {/* <Host/> */}
       {/* <Footer/> */}
 {/* <Ukraine/> */}
       {/* <MyFD/> */}
 {/* <<<<<<< HEAD */}
-      <Footer/>
+      {/* <Footer/> */}
 {/*       
 ======= */}
       {/* <Footer/> */}
