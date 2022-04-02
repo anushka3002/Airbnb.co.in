@@ -1,8 +1,10 @@
 import { Footer } from "../Footer/Footer"
 import "./Host.css";
+import { useNavigate,Navigate } from "react-router-dom";
 // import { useState } from "react";
 
 export const Host=()=>{
+    const Navigate=useNavigate();
     return(
     <>
     <div id="host_header">
@@ -119,7 +121,10 @@ export const Host=()=>{
         <div id="leave_space"></div>
         <p>Questions about hosting?</p>
         <p>Ask a Superhost.</p>
-        <button>Learn more</button>
+        <button  onClick= {
+                    ()=>{
+                        Navigate("/superhost")
+                    }}>Learn more</button>
     </div>
     <div id="aircover">
         <div>

@@ -21,7 +21,7 @@ import {
   faCalendar,
   faBanSmoking,
   faArrowUpFromBracket,
-  faHeart
+  faHeart,
 } from "@fortawesome/free-solid-svg-icons";
 import WebFont from "webfontloader";
 import { useEffect, useState } from "react";
@@ -30,10 +30,11 @@ import { Link, useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 export const MyFD = () => {
-    let {id} = useParams();
-    id =id.replace(":","")
-    // console.log("id is",id)
-    const [details, setDetails] = useState({})
+  let { id } = useParams();
+  id = id.replace(":", "");
+  // console.log("id is",id)
+  const [details, setDetails] = useState({});
+  const [img, setImg] = useState([]);
   useEffect(() => {
     WebFont.load({
       google: {
@@ -43,55 +44,87 @@ export const MyFD = () => {
     getData();
   }, []);
 
-  const getData =()=>{
-    axios.get(`http://localhost:8080/houses/${id}`).then((res) =>{
+  const getData = () => {
+    axios
+      .get(`http://localhost:8080/houses/${id}`)
+      .then((res) => {
         setDetails(res.data);
+        setImg(res.data.images);
         console.log(res.data);
-    });
+      })
+      .catch((err) => {
+        console.log("Error", err);
+      });
   };
-  const total = details.price * 7;
-  const sum = details.price + total;
+  console.log("working", details.price);
+  const x = details.price;
+  let price;
+  if(x === undefined){
+    price = 0;
+  }
+  else{
+    price = x.replace(",", "")
+  }
+  // const price = x.replace(",", "") || [];
+  const num = Number(price);
+  const total = num * 7;
+  const sum = num + total;
   const navigate = useNavigate();
-
- 
-  // console.log("working", typeof(details.price));
 
   return (
     <div className={Styles.d_alpaBody}>
       <div className={Styles.d_reactBody}>
         <div className={Styles.d_reactTitle}>
-            <div className={Styles.d_reactTitle1}>
-                <h2>{details.title2}</h2>
+          <div className={Styles.d_reactTitle1}>
+            <h2>{details.title2}</h2>
+          </div>
+          <div className={Styles.d_reactTitle2}>
+            <div className={Styles.d_titleSpacing}>
+              <FontAwesomeIcon
+                icon={faStar}
+                size="xs"
+                className={Styles.d_reactTitle2_icon}
+              />
+              <p>4.67.</p>
+              <p className={Styles.d_titleSpacing2}>52 reviews</p>
             </div>
-            <div className={Styles.d_reactTitle2}>
-                <div className={Styles.d_titleSpacing}>
-                  <FontAwesomeIcon icon={faStar} size="xs" className={Styles.d_reactTitle2_icon}/>
-                  <p>4.67.</p>
-                  <p className={Styles.d_titleSpacing2}>52 reviews</p>
-                </div>
-                <div className={Styles.d_titleSpacing}>
-                    <button className={Styles.d_reactSharebtn}><FontAwesomeIcon icon={faArrowUpFromBracket} size="xs"/> Share</button>
-                    <button className={Styles.d_reactSharebtn}><FontAwesomeIcon icon={faHeart} size="xs"/> Save</button>
-                </div>
+            <div className={Styles.d_titleSpacing}>
+              <button className={Styles.d_reactSharebtn}>
+                <FontAwesomeIcon icon={faArrowUpFromBracket} size="xs" /> Share
+              </button>
+              <button className={Styles.d_reactSharebtn}>
+                <FontAwesomeIcon icon={faHeart} size="xs" /> Save
+              </button>
             </div>
+          </div>
         </div>
         <div className={Styles.d_mainImg}>
-            {/* {details.map((el) =>(
-              console.log(el.images)
-                // <img src={el.images} alt="" />
-            ))}; */}
+          <div className={Styles.d_class_name1}>
+            <img src={img[0]} />
+          </div>
+          <div className={Styles.d_class_name2}>
+            <div><img src={img[1]} alt="" /></div>
+            <div className={Styles.d_class_name21}><img src={img[2]} alt="" /></div>
+            <div><img src={img[3]} alt="" /></div>
+            <div className={Styles.d_class_name22}><img src={img[4]} alt="" /></div>
+          </div>
         </div>
         <div className={Styles.d_reactDes}>
           <div className={Styles.d_leftDes}>
-              <div className={Styles.d_desbelow}>
-                  <div className={Styles.d_desbelowDetails}>
-                      <h3 className={Styles.d_desbelowDetails1}>{details.host}</h3>
-                      <p className={Styles.d_desbelowDetails2}>2 guests1 bedroom1 bed1 bathroom</p>
-                  </div>
-                  <div className={Styles.d_desImg1}>
-                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa5fAD2aRobPXcbIrmlQgmiCY3rb7RwzDgzA&usqp=CAU" alt="Host" />
-                  </div>
+            <div className={Styles.d_desbelow}>
+              <div className={Styles.d_desbelowDetails}>
+                <h3 className={Styles.d_desbelowDetails1}>{details.host}</h3>
+                <p className={Styles.d_desbelowDetails2}>
+                  2 guests1 bedroom1 bed1 bathroom
+                </p>
               </div>
+              <div className={Styles.d_desImg1}>
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa5fAD2aRobPXcbIrmlQgmiCY3rb7RwzDgzA&usqp=CAU"
+                  alt="Host"
+                />
+              </div>
+            </div>
             <div className={Styles.d_leftInfo}>
               <div className={Styles.d_leftLoc}>
                 <div className={Styles.d_leftIcon}>
@@ -117,9 +150,7 @@ export const MyFD = () => {
               </div>
             </div>
             <div className={Styles.d_hotelInfo}>
-              <p>
-                {details.description}
-              </p>
+              <p>{details.description}</p>
               <p className={Styles.d_showMoreIcon}>
                 Show More <FontAwesomeIcon icon={faAngleRight} />{" "}
               </p>
@@ -196,54 +227,73 @@ export const MyFD = () => {
                   </p>
                 </div>
               </div>
-              <button className={Styles.d_moreDetails_btn}>Show more amenities</button>
+              <button className={Styles.d_moreDetails_btn}>
+                Show more amenities
+              </button>
             </div>
           </div>
           <div className={Styles.d_rightDes}>
-              <div className={Styles.d_rightDesTitle}>
-                  <div className={Styles.d_rightDesTitle1}>
-                      <h3>{"₹ " + details.price + " "}</h3>
-                  </div>
-                  <p className={Styles.d_rightDesTitle2}>{" " + " / night"}</p>
-                  <div className={Styles.d_iconRightDes}>
-                  <p> <FontAwesomeIcon icon={faStar} size="xs" className={Styles.d_reactTitle2_icon}/>4.67.</p>
-                  </div>
-                  <div className={Styles.d_revRightDes}><p>52 reviews</p></div>
+            <div className={Styles.d_rightDesTitle}>
+              <div className={Styles.d_rightDesTitle1}>
+                <h3>{"₹ " + details.price + " "}</h3>
               </div>
-              <div className={Styles.d_rightDate}>
-                  <div className={Styles.d_rightDate1}>
-                    <h5 className={Styles.d_rightDate1_style}>CHECK-IN</h5>
-                    <p className={Styles.d_rightDate1_p}>11/4/2022</p>
-                  </div>
-                  <div className={Styles.d_rightDate2}>
-                    <h5 className={Styles.d_rightDate1_style}>CHECKOUT</h5>
-                    <p className={Styles.d_rightDate1_p}>11/11/2022</p>
-                  </div>
-                  <div className={Styles.d_rightDate3}>
-                    <h5 className={Styles.d_rightDate1_style}>GUESTS</h5>
-                    <p className={Styles.d_rightDate1_p}>1 guest</p>
-                  </div>
+              <p className={Styles.d_rightDesTitle2}>{" " + " / night"}</p>
+              <div className={Styles.d_iconRightDes}>
+                <p>
+                  {" "}
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    size="xs"
+                    className={Styles.d_reactTitle2_icon}
+                  />
+                  4.67.
+                </p>
               </div>
-              <div className={Styles.d_right_btn}>
-                <button className={Styles.d_rightReservebtn} onClick={()=>{navigate("/payment")}}>Reserve</button>
-                <div className={Styles.d_rightBill}>
-                  <p className={Styles.d_rightBill_p}>You won't be charged yet</p>
-                </div>
+              <div className={Styles.d_revRightDes}>
+                <p>52 reviews</p>
+              </div>
+            </div>
+            <div className={Styles.d_rightDate}>
+              <div className={Styles.d_rightDate1}>
+                <h5 className={Styles.d_rightDate1_style}>CHECK-IN</h5>
+                <p className={Styles.d_rightDate1_p}>11/4/2022</p>
+              </div>
+              <div className={Styles.d_rightDate2}>
+                <h5 className={Styles.d_rightDate1_style}>CHECKOUT</h5>
+                <p className={Styles.d_rightDate1_p}>11/11/2022</p>
+              </div>
+              <div className={Styles.d_rightDate3}>
+                <h5 className={Styles.d_rightDate1_style}>GUESTS</h5>
+                <p className={Styles.d_rightDate1_p}>1 guest</p>
+              </div>
+            </div>
+            <div className={Styles.d_right_btn}>
+              <button
+                className={Styles.d_rightReservebtn}
+                onClick={() => {
+                  navigate("/payment");
+                }}
+              >
+                Reserve
+              </button>
+              <div className={Styles.d_rightBill}>
+                <p className={Styles.d_rightBill_p}>You won't be charged yet</p>
+              </div>
 
-                <div className={Styles.d_rightmoney}>
-                  <p>{"₹ " + details.price + " X 7 nights"}</p>
-                  <p>{total}</p>
-                </div>
-                <div className={Styles.d_rightmoney}>
-                  <p>Service Fee</p>
-                  <p>₹ 5,381</p>
-                </div>
-
-                <div className={Styles.d_righttotal1}>
-                  <p>Total Before Tax</p>
-                  <p>{"₹" + sum}</p>
-                </div>
+              <div className={Styles.d_rightmoney}>
+                <p>{"₹ " + details.price + " X 7 nights"}</p>
+                <p>{total}</p>
               </div>
+              <div className={Styles.d_rightmoney}>
+                <p>Service Fee</p>
+                <p>₹ 5,381</p>
+              </div>
+
+              <div className={Styles.d_righttotal1}>
+                <p>Total Before Tax</p>
+                <p>{"₹" + sum}</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
