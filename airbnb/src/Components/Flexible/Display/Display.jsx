@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import { Register } from "../Register/Register"
 // import Link from "react-router-dom"
 
 // import "./display.css"
@@ -13,12 +14,11 @@ export const Display = ({value})=>{
     useEffect(()=>{ 
         axios.get("http://localhost:8080/houses").then((res)=>{
             setData(res.data)
-            console.log(res.data)
         })
     },[])
 
     return (
-        <>
+        <>  
             <div className={styles.yHome__section}>
                 {   data.filter((e)=>{
                     return e['type'] == value
