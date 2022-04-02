@@ -1,6 +1,9 @@
 // import { useStore } from "react-redux";
 import Styles from "./LandingPage.module.css";
 import { Hamburger } from "../Hamburger/Hamburger";
+import { Register } from "../Flexible/Register/Register";
+
+
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Landing.css"
@@ -14,6 +17,13 @@ const [become_host,setBecomeHost]=useState(false)
 const [lower_head,setLowerHead]=useState(false)
 const [navmiddle,setNavmiddle]=useState(false)
 const [scroll_search,setScrollSearch]=useState(false)
+
+const [regState,setRegister] = useState(false);
+
+const handleRegister = ()=>{
+    console.log("clicked")
+    setRegister(!regState)
+}
 
 const changeNavbar=()=>{
     if(window.scrollY>=145){
@@ -65,7 +75,6 @@ window.addEventListener("scroll",changeNavbar)
                     <div className={globe?"globe_logo active":"globe_logo"}></div>
                     <Hamburger/>
                     </div>
-            
             </div>
 
             <div className={lower_head?"a_lower_header active":"a_lower_header"}>

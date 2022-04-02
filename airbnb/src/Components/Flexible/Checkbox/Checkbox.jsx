@@ -2,7 +2,6 @@ import Form from "react-bootstrap/form";
 import "./Checkbox.css"
 export const Checkbox = ({object})=>{
     let array = Object.values(object)[0]
-    console.log("hello",array)
     return (
             <Form>
                 <span className="yCheckbox_header">{Object.keys(object)}</span>
