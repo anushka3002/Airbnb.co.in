@@ -6,6 +6,8 @@ import { LandingPage } from './Components/LandingPage/LandingPage'
 import {Footer} from "./Components/Footer/Footer"
 import { Singup } from './Components/LoginSignup/Signup'
 import { Host } from './Components/Become_a_host/Host'
+import { CardComponent } from './Components/Places_card/Travel_card'
+import { Routers } from './Components/Routers/router'
 // import { Display } from './Components/Flexible/Display/Display'
 
 
@@ -15,10 +17,13 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar/> */}
+      {/* <Card/> */}
+      {/* <CardComponent/> */}
       {/* <LandingPage/> */}
+      <Routers/>
       {/* <Singup/> */}
-      <Host/>
-      {/* <Footer/> */}
+      {/* <Host/> */}
+      <Footer/>
     </div>
   )
 }

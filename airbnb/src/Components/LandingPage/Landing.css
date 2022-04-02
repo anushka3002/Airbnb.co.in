@@ -48,6 +48,8 @@
     font-weight: 400;
     font-size: 15px;
     margin-top: 1px;
+    text-decoration: none;
+    text-underline-offset: 0;
     /* border:1px solid rgb(214, 40, 40); */
     }
     .a_right_nav.active{

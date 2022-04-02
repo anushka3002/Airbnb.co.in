@@ -1,5 +1,6 @@
 import { Footer } from "../Footer/Footer"
-import "./Host.css"
+import "./Host.css";
+// import { useState } from "react";
 
 export const Host=()=>{
     return(
@@ -14,8 +15,6 @@ export const Host=()=>{
         <img style={{display:"block",margin:"auto",marginTop:"10%"}} src="http://dmconsulting.net/wp-content/uploads/2017/09/Drop-down-arrow-icon-rounded.png" width="15px" height="15px"></img>
         </div>
         <div id="header_image">
-            <img src="https://a0.muscache.com/im/pictures/cac9415a-acfb-4c92-a6d0-770e948741b1.jpg?im_w=480"></img>
-            <h3>Host in Phildelphia</h3>
         </div>
     </div>
 
@@ -103,7 +102,7 @@ export const Host=()=>{
             </select>
             </div>
             <div id="second_line">
-                <p style={{marginRight:"260px"}}>in</p>
+                <p style={{marginRight:"280px"}}>in</p>
                 <select style={{marginRight:"30%"}}>
                     <option id="ganaura_option">Ganaur</option>
                     <option id="ganaura_option">Gurgaon</option>
@@ -135,8 +134,7 @@ export const Host=()=>{
     </div>
 
     <div id="try_hosting">
-        <div>
-            <img src="https://globalhostingblogsdotcom.files.wordpress.com/2020/05/airbnb-guest.jpg" width="100%" height="100%"></img>
+        <div className="denim">
         </div>
         <div>
         <p>Try hosting on Airbnb</p>
@@ -144,7 +142,6 @@ export const Host=()=>{
             <button>Let's go!</button>
         </div>
     </div>
-    <Footer/>
 
     </>
     )}
