@@ -2,7 +2,7 @@
 import Styles from "./LandingPage.module.css";
 import { Hamburger } from "../Hamburger/Hamburger";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import "./Landing.css"
 
 export const LandingPage =()=>{
@@ -39,6 +39,7 @@ const changeNavbar=()=>{
 
 window.addEventListener("scroll",changeNavbar)
 
+const Navigate=useNavigate();
     return (
         <div className={Styles.abody}>
 <Link className={Styles.abody} to={"/"}></Link>
@@ -157,11 +158,15 @@ window.addEventListener("scroll",changeNavbar)
         <div className={Styles.a_last_woman_image}>
             <div className={Styles.a_hosting_image}>
                 <p className={Styles.a_questions_hosting}>Questions about hosting?</p>
-                <button className={Styles.a_superhost_button}>Ask a Superhost</button>
+                <button className={Styles.a_superhost_button}  onClick= {
+                    ()=>{
+                        Navigate("/superhost")
+                    }
+                }>Ask a Superhost</button>
             </div>
         </div>
 
-       
+
         </div>
     )
 }

@@ -15,6 +15,7 @@ import { Routers } from './Components/Routers/router'
 
 // import { Display } from './Components/Flexible/Display/Display'
 // import { Navbar } from "./Components/Flexible/Navbar/Navbar"
+import { Superhost } from "./Components/Superhost/Superhost"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -33,6 +34,7 @@ function App() {
 
       {/* <MyFD/> */}
       <Footer/>
+      
 
     </div>
   )
