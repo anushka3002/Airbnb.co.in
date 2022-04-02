@@ -10,14 +10,12 @@ import CalendarTodayIcon from '@material-ui/icons/CalendarToday';
 import Modal from "react-bootstrap/Modal";
 import Button from 'react-bootstrap/Button'
 import Switch from '@mui/material/Switch';
-import 'bootstrap/dist/css/bootstrap.css';
 
 import { DatePicker } from "../DatePicker/DatePicker"
 import { Guests } from "../Guests/Guests";
 import { CustomizedSlider } from "../AirbnbSlider/Slider"
 import { Counter } from "../Counter/Counter";
 import { Checkbox } from "../Checkbox/Checkbox";
-import { handle } from "express/lib/router";
 
 export const Filters = ({fn})=>{
 
@@ -134,9 +132,10 @@ export const Filters = ({fn})=>{
 
     const [toggleSelect,setSelected] = useState("I'm Flexible");
     return (
-        <>
-            <div className="filters">
-            <div className="filter_types">
+        <>  
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"></link>
+            <div className="yFilters">
+            <div className="yFilter_types">
                 {filters.map((e,i)=>(
                     
                     <div className={e} key={i}>
@@ -156,16 +155,16 @@ export const Filters = ({fn})=>{
                     </div>
                 ))}
             </div>
-            <div className="filter_buttons">
-                    <button className="filter_button" onClick={handleShow}>
+            <div className="yFilter_buttons">
+                    <button className="yFilter_button" onClick={handleShow}>
                         Anytime
                         <FaAngleDown></FaAngleDown>
                     </button>
-                    <button className="filter_button" onClick={handleGuests}>
+                    <button className="yFilter_button" onClick={handleGuests}>
                         Guests
                         <FaAngleDown></FaAngleDown>
                     </button>
-                    <button className="filter_button" onClick={setFilters}>
+                    <button className="yFilter_button" onClick={setFilters}>
                         Filters
                         {/* <FaThList size={17}></FaThList> */}
                         <FaSlidersH size={17}></FaSlidersH>
@@ -200,13 +199,13 @@ export const Filters = ({fn})=>{
                                 <div className="yDates">
                         How long would you like to stay?    
                         <div className="yDate_buttons">
-                            <button className="filter_button" onClick={handleShow}>
+                            <button className="yFilter_button" onClick={handleShow}>
                                 Weekend
                             </button>
-                            <button className="filter_button">
+                            <button className="yFilter_button">
                                 Week
                             </button>
-                            <button className="filter_button">
+                            <button className="yFilter_button">
                                 Month
                             </button>
                         </div>

@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
-// import {Navbar} from "./Components/Navbar/Navbar"
 import { LandingPage } from './Components/LandingPage/LandingPage'
 import {Footer} from "./Components/Footer/Footer"
 
@@ -14,8 +13,6 @@ import { CardComponent } from './Components/Places_card/Travel_card'
 import { Routers } from './Components/Routers/router'
 import { Ukraine } from './Components/Ukraine/Ukraine'
 
-// import { Display } from './Components/Flexible/Display/Display'
-// import { Navbar } from "./Components/Flexible/Navbar/Navbar"
 
 function App() {
   const [count, setCount] = useState(0)
