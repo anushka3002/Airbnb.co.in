@@ -1,13 +1,14 @@
 
 .btn{
     color: grey;
+    font-size: 16px;
     border: none;
     border-radius: 50%;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
     background: white;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-    align-items: center;
+    /* padding: 10px; */
 }
 
 .counterValue{
@@ -16,7 +17,7 @@
 
 .yCounter{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     width: 30%;
 }
