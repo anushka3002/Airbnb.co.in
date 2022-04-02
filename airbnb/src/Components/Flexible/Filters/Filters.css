@@ -1,9 +1,17 @@
 
 .filters{
-    padding-left: 2%;
-    padding-right: 2%;
+    padding: 2%;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    background-color: white;
+}
+
+.selected{
+    color: black;
+    text-decoration: underline;
 }
 
 .filter_types{
@@ -28,6 +36,14 @@
     display: flex;
     justify-content: space-evenly;
     width: 350px;
+    max-height: 200px;
+}
+
+.toggle_selected{
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .filter_button{
     background-color: white;
@@ -50,7 +66,7 @@
 .yToggle{
     display: flex;
     justify-content: space-around;
-    width: 40%;
+    width: 30%;
     margin: auto;
     background-color: #EBEBEB;
     border-radius: 20px;
@@ -109,3 +125,57 @@
     margin-left: 60%;
     width: 60%;
 }
+
+.yFilter_header{
+    margin-left: 45%;
+}
+
+.yPrice_range{
+    font-weight: 500;
+}
+
+.yFilter_body{
+    padding: 20px;
+}
+
+.yBody_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.yBody_content>div:nth-child(1){
+    line-height: 10px;
+}
+
+.yBody_content>div:nth-child(1)>p:nth-child(1){
+    font-weight: 450;
+}
+
+.yBody_content>div:nth-child(1)>p:nth-child(2){
+    color: grey;
+}
+
+
+
+.my-modal{
+    height: 600px;
+    overflow: scroll;
+}
+
+.yRooms{
+    margin-top: 20px;
+    color: grey;
+}
+.yRoom{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+.yLinks{
+    color: black;
+}
+

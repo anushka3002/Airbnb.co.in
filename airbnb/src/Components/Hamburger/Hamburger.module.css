@@ -1,0 +1,13 @@
+.a_hamburger{
+    margin-top:7px;
+    width:30%;
+    height:73%;
+    border-radius: 30px;
+    background-color: white;
+    border:1px solid transparent;
+    display: flex;
+    color:black;
+    border:1px solid rgb(204, 195, 195);
+    }
+    
+        

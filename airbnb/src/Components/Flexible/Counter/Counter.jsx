@@ -11,23 +11,23 @@ export const Counter = ()=>{
     return(
         <>  
             <div className={styles.yCounter}>
-            <button className={styles.btn} onClick={()=>{
-                handleChange(1)
-            }}>
-                +
-            </button>
+                <button className={styles.btn} onClick={()=>{
+                    if(counter>=1){
+                        handleChange(-1)
+                    }
+                }}>
+                    -
+                </button>
 
-            <span className={styles.counterValue}>
-                {counter}
-            </span>
+                <span className={styles.counterValue}>
+                    {counter}
+                </span>
 
-            <button className={styles.btn} onClick={()=>{
-                if(counter>=1){
-                    handleChange(-1)
-                }
-            }}>
-                -
-            </button>
+                <button className={styles.btn} onClick={()=>{
+                    handleChange(1)
+                }}>
+                    +
+                </button>
             </div>
         </>
     )

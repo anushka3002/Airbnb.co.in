@@ -3,13 +3,13 @@
   overflow: hidden;
   transition: transform 100ms ease-in;
   cursor: pointer;
+  width: 280px;
   border-radius: 5%;
 }
   
   .yDisplay_img {
     border-radius: 5%;
     object-fit: fill;
-    min-width: 300px;
     height: 300px;
     width: 100%;
   }
