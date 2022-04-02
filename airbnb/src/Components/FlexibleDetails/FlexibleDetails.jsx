@@ -76,10 +76,10 @@ export const MyFD = () => {
             </div>
         </div>
         <div className={Styles.d_mainImg}>
-            {details.map((el) =>(
+            {/* {details.map((el) =>(
               console.log(el.images)
                 // <img src={el.images} alt="" />
-            ))};
+            ))}; */}
         </div>
         <div className={Styles.d_reactDes}>
           <div className={Styles.d_leftDes}>
