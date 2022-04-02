@@ -24,11 +24,11 @@ function App() {
       {/* <CardComponent/> */}
       {/* <LandingPage/> */}
 
-      {/* <Routers/> */}
+      <Routers/>
       {/* <Singup/> */}
       {/* <Host/> */}
       {/* <Footer/> */}
-<Ukraine/>
+{/* <Ukraine/> */}
       {/* <MyFD/> */}
       {/* <Footer/> */}
 
