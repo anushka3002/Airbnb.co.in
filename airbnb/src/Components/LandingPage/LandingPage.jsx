@@ -1,7 +1,8 @@
-import { useStore } from "react-redux";
+// import { useStore } from "react-redux";
 import Styles from "./LandingPage.module.css";
 import { Hamburger } from "../Hamburger/Hamburger";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Landing.css"
 
 export const LandingPage =()=>{
@@ -40,7 +41,7 @@ window.addEventListener("scroll",changeNavbar)
 
     return (
         <div className={Styles.abody}>
-
+<Link className={Styles.abody} to={"/"}></Link>
 <div className={navbar?"navbar active":"navbar"}>
                 <div className={Styles.a_upper_header}>
                     <div style={{marginLeft:"-1%",marginTop:"1%"}}>
@@ -60,7 +61,7 @@ window.addEventListener("scroll",changeNavbar)
                     </div>
                     
                     <div className={become_host?"a_right_nav active":"a_right_nav"}>
-                    <p>Become a host</p>
+                    <Link to={'/become_a_host'}><p style={{color:"white",textDecoration:"none"}}>Become a host</p></Link>
                     <div className={globe?"globe_logo active":"globe_logo"}></div>
                     <Hamburger/>
                     </div>
@@ -101,7 +102,7 @@ window.addEventListener("scroll",changeNavbar)
                 <div className={Styles.a_home_text_container}>
                 <p className={Styles.a_home_text}>Let your curiosity do the booking</p>
                 </div>
-                <div className={Styles.aflexible}><h4 id={Styles.aflextext}>I'm flexible</h4></div>
+                <Link to={"./flexible"}><div className={Styles.aflexible}><h4 id={Styles.aflextext}>I'm flexible</h4></div></Link>
             </div></div>
 
         <div className={Styles.places_card_container}>
