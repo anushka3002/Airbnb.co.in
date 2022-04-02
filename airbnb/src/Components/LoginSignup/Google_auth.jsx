@@ -1,6 +1,6 @@
 import React,{Component} from "react"
 import GoogleLogin from "react-google-login"
-
+import Styles from "./Signup.module.css"
 
 export class Google_auth extends Component{
 
@@ -14,7 +14,7 @@ export class Google_auth extends Component{
             <div>
                 <GoogleLogin
                 clientId="1009641079467-v8ve5rfo6e4tgmlon3rs9nqhur89obmk.apps.googleusercontent.com"
-                buttonText="Continue with Google"
+                buttonText=""
                 onSuccess={this.responseGoogle}
                 onFailure={this.responseGoogle}
                 cookiePolicy={'single_host_origin'}
