@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
-// import {Navbar} from "./Components/Navbar/Navbar"
 import { LandingPage } from './Components/LandingPage/LandingPage'
 import {Footer} from "./Components/Footer/Footer"
 
@@ -12,10 +11,14 @@ import { Host } from './Components/Become_a_host/Host'
 
 import { CardComponent } from './Components/Places_card/Travel_card'
 import { Routers } from './Components/Routers/router'
+import { Ukraine } from './Components/Ukraine/Ukraine'
 
+<<<<<<< HEAD
 // import { Display } from './Components/Flexible/Display/Display'
 // import { Navbar } from "./Components/Flexible/Navbar/Navbar"
 import { Superhost } from "./Components/Superhost/Superhost"
+=======
+>>>>>>> 8019e7af934f9db7a86ae4dc9dc8421961bb1c3a
 
 function App() {
   const [count, setCount] = useState(0)
@@ -31,10 +34,14 @@ function App() {
       {/* <Singup/> */}
       {/* <Host/> */}
       {/* <Footer/> */}
-
+{/* <Ukraine/> */}
       {/* <MyFD/> */}
+<<<<<<< HEAD
       <Footer/>
       
+=======
+      {/* <Footer/> */}
+>>>>>>> 8019e7af934f9db7a86ae4dc9dc8421961bb1c3a
 
     </div>
   )
