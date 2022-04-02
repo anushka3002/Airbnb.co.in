@@ -4,6 +4,7 @@ import { Hamburger } from "../Hamburger/Hamburger";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Landing.css"
+import { Footer } from "../Footer/Footer";
 export const LandingPage =()=>{
 
 const [navbar,setNavbar]=useState(false)
@@ -94,7 +95,7 @@ window.addEventListener("scroll",changeNavbar)
                 <div className={Styles.ared}>
                     <div className={Styles.ared_text}>
                     <p className={Styles.ahelp}>Help house 100,000 refugees fleeing Ukraine</p>
-                    <button className={Styles.alearnmore}>Learn more</button>
+                    <Link to={"/Support_Ukraine"}><button className={Styles.alearnmore}>Learn more</button></Link>
                 </div></div>
 
             <div className={Styles.ahome}>
@@ -159,7 +160,7 @@ window.addEventListener("scroll",changeNavbar)
                 <button className={Styles.a_superhost_button}>Ask a Superhost</button>
             </div>
         </div>
-
+<Footer/>
        
         </div>
     )

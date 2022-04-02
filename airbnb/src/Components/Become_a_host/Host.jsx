@@ -142,6 +142,6 @@ export const Host=()=>{
             <button>Let's go!</button>
         </div>
     </div>
-
+    <Footer/>
     </>
     )}
