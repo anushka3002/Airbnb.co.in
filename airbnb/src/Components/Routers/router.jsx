@@ -11,7 +11,8 @@ export const Routers=()=>{
             <Route path="/" element={<LandingPage/>}/>
         <Route path="/become_a_host" element={<Host/>}/>
         <Route path="/flexible" element={<NavbarComponent/>}/>
-        <Route path="/details/:id" element={<MyFD></MyFD>}></Route>
+        <Route path="/details/:id" element={<MyFD/>}></Route>
+        <Route path="/payment"></Route>
         </Routes>
         </>
     )

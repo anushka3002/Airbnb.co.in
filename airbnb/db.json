@@ -12,10 +12,11 @@
             "title":"Jari, Himachal Pradesh",
             "title2": "LAPUTA VILLA - The Bamboo Castle in the Sky",
             "type":"Farms",
-            "description":"Superhost with a stunning view of the beachside in Sunny Bournemouth",
-            "price":"7,814/night",
+            "description":"A grown-up, sophisticated version of your favorite childhood treehouse. By elevating our studio on stilts, we maximize views up top while leaving the ground below minimally impacted to honour our philosophy of treading lightly on the Earth.Our breezy elevated structures offer a unique off-the-ground experience that emphasizes natural light and plays with space to create a stunning framework for",
+            "price":7814,
             "distance":"378 Kilometres Away",
-            "date":"7-14 May"
+            "date":"7-14 May",
+            "host": "Private room in resort hosted by Pranit"
         },
         {   
             "id":2,
@@ -30,9 +31,10 @@
             "title2":"LAPUTA VILLA - The Bamboo Castle in the Sky",
             "type":"Farms",
             "description":"Enjoy the amazing sights of London with this stunning penthouse",
-            "price":"17,205/night",
+            "price":"17,205",
             "distance":"4,709 Kilometres Away",
-            "date":"15-22 May"
+            "date":"15-22 May",
+            "host": "Private room in resort hosted by Pranit"
         }
         ,
         {   
@@ -48,9 +50,10 @@
             "title2":"LAPUTA VILLA - The Bamboo Castle in the Sky",
             "type":"Amazing Pools",
             "description":"Superhost with great amenities and a fabolous shopping complex nearby",
-            "price":"12,838/night",
+            "price":"12,838",
             "distance":"1262 Kilometres Away",
-            "date":"24 Apr - 1 May"
+            "date":"24 Apr - 1 May",
+            "host": "Private room in resort hosted by Pranit"
         },
         {   
             "id":4,
@@ -66,9 +69,10 @@
             "title2": "LAPUTA VILLA - The Bamboo Castle in the Sky",
             "type":"Amazing Pools",
             "description":"Superhost with a stunning view of the beachside in Sunny Bournemouth",
-            "price":"4,833/night",
+            "price":"4,833",
             "distance":"4,546 Kilometres Away",
-            "date":"1-8 Apr"
+            "date":"1-8 Apr",
+            "host": "Private room in resort hosted by Pranit"
         },
         {   
             "id":5,
@@ -83,10 +87,11 @@
             "title":"Kecamatan Ubud, Bali",
             "title2": "-70%- Elegant & luxurious 3 BR villa rice-fields pano",
             "type":"Amazing Pools",
-            "description":"Entire villa hosted by Alfred",
-            "price":"10,833/night",
+            "description":"A grown-up, sophisticated version of your favorite childhood treehouse. By elevating our studio on stilts, we maximize views up top while leaving the ground below minimally impacted to honour our philosophy of treading lightly on the Earth.Our breezy elevated structures offer a unique off-the-ground experience that emphasizes natural light and plays with space to create a stunning framework for",
+            "price":"10,833",
             "distance":"4,800 Kilometres Away",
-            "date":"4-11 Apr"
+            "date":"4-11 Apr",
+            "host": "Private room in resort hosted by Pranit"
         },
         {   
             "id":6,
@@ -102,9 +107,10 @@
             "title2": "A Cozy Dome & Attic in Parvati Valley | Itsy Bitsy",
             "type":"Beachfront",
             "description":"Dome hosted by Rachana",
-            "price":"7,814/night",
+            "price":"7,814",
             "distance":"2,115 Kilometres Away",
-            "date":"7-14 May"
+            "date":"7-14 May",
+            "host": "Private room in resort hosted by Pranit"
         },
         {   
             "id":7,
@@ -119,10 +125,11 @@
             "title":"Bunutan, Abang",
             "title2": ">Green CoCo House no.3 with a starry shower<",
             "type":"Beachfront",
-            "description":"Entire bungalow hosted by Putu",
-            "price":"1,433/night",
+            "description":"A grown-up, sophisticated version of your favorite childhood treehouse. By elevating our studio on stilts, we maximize views up top while leaving the ground below minimally impacted to honour our philosophy of treading lightly on the Earth.Our breezy elevated structures offer a unique off-the-ground experience that emphasizes natural light and plays with space to create a stunning framework for",
+            "price":"1,433",
             "distance":"4,831 Kilometres Away",
-            "date":"15-22 Apr"
+            "date":"15-22 Apr",
+            "host": "Private room in resort hosted by Pranit"
         },
         {   
             "id":8,
@@ -137,10 +144,11 @@
             "title":"Tegalallang Gianyar, Bali",
             "title2": "NewEarth Haven - Moonstone Crystal Eco Dome",
             "type":"Offbeat",
-            "description":"Dome hosted by NewEarth Haven",
-            "price":"5,336/night",
+            "description":"A grown-up, sophisticated version of your favorite childhood treehouse. By elevating our studio on stilts, we maximize views up top while leaving the ground below minimally impacted to honour our philosophy of treading lightly on the Earth.Our breezy elevated structures offer a unique off-the-ground experience that emphasizes natural light and plays with space to create a stunning framework for",
+            "price":"5,336",
             "distance":"4,796 Kilometres Away",
-            "date":"1-8 Apr"
+            "date":"1-8 Apr",
+            "host": "Private room in resort hosted by Pranit"
         },
         {   
             "id":9,
@@ -155,10 +163,11 @@
             "title":"Kecamatan Ubud, Bali",
             "title2": "50% OFF | Ipian Cinta with Private Pool jacuzzi",
             "type":"Cabins",
-            "description":"Hut hosted by Leon",
-            "price":"4,830/night",
+            "description":"A grown-up, sophisticated version of your favorite childhood treehouse. By elevating our studio on stilts, we maximize views up top while leaving the ground below minimally impacted to honour our philosophy of treading lightly on the Earth.Our breezy elevated structures offer a unique off-the-ground experience that emphasizes natural light and plays with space to create a stunning framework for",
+            "price":"4,830",
             "distance":"4,797 Kilometres Away",
-            "date":"15-22 Oct"
+            "date":"15-22 Oct",
+            "host": "Private room in resort hosted by Pranit"
         },
         {   
             "id":10,
@@ -173,10 +182,11 @@
             "title":"Kuta Ubud, Bali",
             "title2": "Luxury Honeymoon nest jacuzzi, pool, 1BR villa",
             "type":"Cabins",
-            "description":"Entire villa hosted by Mark",
-            "price":"12,853/night",
+            "description":"A grown-up, sophisticated version of your favorite childhood treehouse. By elevating our studio on stilts, we maximize views up top while leaving the ground below minimally impacted to honour our philosophy of treading lightly on the Earth.Our breezy elevated structures offer a unique off-the-ground experience that emphasizes natural light and plays with space to create a stunning framework for",
+            "price":"12,853",
             "distance":"4,794 Kilometres Away",
-            "date":"1-8 May"
+            "date":"1-8 May",
+            "host": "Private room in resort hosted by Pranit"
         },
         {   
             "id":11,
@@ -191,10 +201,11 @@
             "title":"Kecamatan Mengwi, Bali",
             "title2": "SOFT LAUNCH SPECIAL Designer Treehouse Loft Canggu",
             "type":"Treehouses",
-            "description":"Treehouse hosted by Stilt",
-            "price":"5,833/night",
+            "description":"A grown-up, sophisticated version of your favorite childhood treehouse. By elevating our studio on stilts, we maximize views up top while leaving the ground below minimally impacted to honour our philosophy of treading lightly on the Earth.Our breezy elevated structures offer a unique off-the-ground experience that emphasizes natural light and plays with space to create a stunning framework for",
+            "price":"5,833",
             "distance":"4,796 Kilometres Away",
-            "date":"7-14 May"
+            "date":"7-14 May",
+            "host": "Private room in resort hosted by Pranit"
         },
         {   
             "id":12,
@@ -209,10 +220,11 @@
             "title":"Pune, Maharashtra",
             "title2": "Sunnyside Cottage with lake view",
             "type":"Treehouses",
-            "description":"Private room in resort hosted by Pranit",
+            "description":"A grown-up, sophisticated version of your favorite childhood treehouse. By elevating our studio on stilts, we maximize views up top while leaving the ground below minimally impacted to honour our philosophy of treading lightly on the Earth.Our breezy elevated structures offer a unique off-the-ground experience that emphasizes natural light and plays with space to create a stunning framework for",
             "price":"6,747/night",
             "distance":"774 Kilometres Away",
-            "date":"16-23 Apr"
+            "date":"16-23 Apr",
+            "host": "Private room in resort hosted by Pranit"
         },
         {
             "id":13,
@@ -227,9 +239,10 @@
             "title2":"Private Group Stay in Exclusive Fairytale Castle",
             "type":"Castles",
             "description":"This fairy tale castle embodies a timeless Scanadavian aesthetic; including grand windows for ample natural light. While here, take advantage of the new custom-designed Finnish Sauna and expansive 85 sqm. Yoga Salon. The 65 sqm. main-floor Kitchen is a delight for foodies and cooks, while the professional sound equipment, understated yet elegant dance floor and bar area complete every party. Enjoy the 4 Ha. historical park with exotic trees, ample shade, and large terrace for group gatherings.",
-            "price":"1,10,965",
+            "price":"1,10,965/night",
             "distance":"5,579 Kilometres Away",
-            "date":"10-17 Apr"
+            "date":"10-17 Apr",
+            "host": "Private room in resort hosted by Pranit"
         },
         {
             "id":14,
@@ -241,12 +254,13 @@
                 "https://a0.muscache.com/im/pictures/b28d19e3-7cfd-4ce0-851f-ae9378542ad5.jpg?im_w=720"
             ],
             "title":"Capriva del Friuli",
-            "titlee2":"Junior Suite Castello di Spessa",
+            "title2":"Junior Suite Castello di Spessa",
             "type":"Castles",
             "description":"OSPITI DEL CASTELLO DI SPESSA Con una storia lunga quasi otto secoli, il Castello di Spessa ha ospitato famiglie di prestigio come Giacomo Casanova e Lorenzo Da Ponte. Tutte le camere -immerse nella quiete del parco del castello con vista sulle colline- sono climatizzate e con accesso WI-FI gratuito, dotate di TV a schermo piatto, cassaforte, minibar, Docce spaziose, sacco con trapuntino",
-            "price":"20,171",
+            "price":"20,171/night",
             "distance":"5,792 Kilometres away",
-            "date":"1-8 Apr"
+            "date":"1-8 Apr",
+            "host": "Private room in resort hosted by Pranit"
         },
         {
             "id":15,
@@ -258,12 +272,13 @@
                 "https://a0.muscache.com/im/pictures/8297c2a3-1708-45f1-a005-4cab794058a1.jpg?im_w=720"
             ],
             "title":"Cagli, Marche",
-            "titlee2":"Castello di Naro in esclusiva",
+            "title2":"Castello di Naro in esclusiva",
             "type":"Castles",
             "description":"Curato nei minimi dettagli, il Castello di Naro è una location suggestiva ed elegante, ideale per organizzare eventi privati, culturali e aziendali o per trascorrere una vacanza, riservando in esclusiva il Castello fino a dieci ospiti.Uno spazio versatile e capace di valorizzare i vostri momenti, regalandovi un’esperienza sempre unica ed emozionante.",
-            "price":"1,03,069",
+            "price":"1,03,069/night",
             "distance":"5,886 Kilometers away",
-            "date":"8-15 Apr"
+            "date":"8-15 Apr",
+            "host": "Private room in resort hosted by Pranit"
         },
         {
             "id":16,
@@ -275,12 +290,13 @@
                 "https://a0.muscache.com/im/pictures/miso/Hosting-52510092/original/1f9f7034-0d43-40b5-bcee-3710c08469c3.png?im_w=720"
             ],
             "title":"Porvoo",
-            "titlee2":"Fairytale castle ensuite private room with balcony",
+            "title2":"Fairytale castle ensuite private room with balcony",
             "type":"Castles",
             "description":"There are total 4 bedrooms in the castle, this is a very spacy private bedroom with own bathroom suitable for 2. Small baby can share the same bed with parents - we donot charge extra for this. This memorable place is anything but ordinary. It's located 50 mins drive from Helsinki downtown & airport.",
-            "price":"30,839",
+            "price":"30,839/night",
             "distance":"5,192 Kilometres away",
-            "date":"1-8 Apr"
+            "date":"1-8 Apr",
+            "host": "Private room in resort hosted by Pranit"
         },
         {
             "id":17,
@@ -292,12 +308,13 @@
                 "https://a0.muscache.com/im/pictures/e3039c67-910e-413b-8835-89551dc0faa8.jpg?im_w=720"
             ],
             "title":"Vittorio Venetto",
-            "titlee2":"A whole medieval castle for you",
+            "title2":"A whole medieval castle for you",
             "type":"Castles",
             "description":"A whole medieval castle for up 8 people in Vittorio Veneto,Treviso A set of 3 units enclosed by a Medieval Castle. The best for a family reunion or a group of friends. Located on the top of the hill the Castle offers a panorama of Medieval roofs, and the view of beautiful mountains. It’s an excellent departure point for visits to Veneto art towns, and/or for hiking or biking excursions in the near Dolomites.",
             "price":"33,053",
             "distance":"5,884 Kilometres away",
-            "date":"5-8 Apr"
+            "date":"5-8 Apr",
+            "host": "Private room in resort hosted by Pranit"
         },
         {
             "id":18,
@@ -309,12 +326,13 @@
                 "https://a0.muscache.com/im/pictures/49a3c55c-1fdb-445b-a1b8-4fdf4f67ad64.jpg?im_w=720"
             ],
             "title":"Montegiove Um..",
-            "titlee2":"Old Castle Olive Mill",
+            "title2":"Old Castle Olive Mill",
             "type":"Castles",
             "description":"Charming and completely restored 13th century castle olive mill, transformed into a luxurious country house, located just outside the ring wall of Castello di Montegiove. Montegiove is a lovely and peaceful medieval country village, close to the mai",
             "price":"27,759",
             "distance":"5,931 Kilometres away",
-            "date":"2-9 Apr"
+            "date":"2-9 Apr",
+            "host": "Private room in resort hosted by Pranit"
         },
         {
             "id":19,
@@ -326,12 +344,13 @@
                 "https://a0.muscache.com/im/pictures/9ce41c3e-0b28-48cf-b356-79b3fad6fb48.jpg?im_w=720"
             ],
             "title":"Vico Equense, Ca..",
-            "titlee2":"Sleep in a Castle on the Sorrento Coast!",
+            "title2":"Sleep in a Castle on the Sorrento Coast!",
             "type":"Castles",
             "description":"Imagine visiting the amazing south of Italy and living a dream life in a real castle with breath taking views on the magnificent mediterranean sea. Oh wait, you can! This gorgeous location is the perfect spot to enjoy the Sorrento Coast in the most iconic way. The Castle features a private pool, beach club and on site restaurant. The flat is fully equipped with air conditioning, kitchenette and a post card view from the",
             "price":"8,960",
             "distance":"5,775 Kilometres away",
-            "date":"17-24 Apr"
+            "date":"17-24 Apr",
+            "host": "Private room in resort hosted by Pranit"
         },
         {
             "id":20,
@@ -343,12 +362,13 @@
                 "https://a0.muscache.com/im/pictures/2802c21b-14c2-4d0d-9f68-30342f8cd1d1.jpg?im_w=720"
             ],
             "title":"Mikra Mintinia",
-            "titlee2":"Entire Castle, Amazing Sea View and Swimming Pool",
+            "title2":"Entire Castle, Amazing Sea View and Swimming Pool",
             "type":"Castles",
             "description":"Cobble tower, with a spacious guesthouse, only 1km from the beach Allow the old, rare, stylish decoration to travel you through time, while our beloved garden offers you its serenity,as well as its fruits and vegetables Relax on the porch ,enjoying unique sunsets in the gulf. In a radius of 2km you may find places to shop,dine or go out,while you are only 10km away from Kalamata city.",
             "price":"30,189",
             "distance":"5,158 Kilometres away",
-            "date":"12-19 Apr"
+            "date":"12-19 Apr",
+            "host": "Private room in resort hosted by Pranit"
         }
  
     ]

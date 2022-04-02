@@ -24,21 +24,45 @@ import {
   faHeart
 } from "@fortawesome/free-solid-svg-icons";
 import WebFont from "webfontloader";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import axios from "axios";
+import { Link, useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export const MyFD = () => {
+    let {id} = useParams();
+    id =id.replace(":","")
+    // console.log("id is",id)
+    const [details, setDetails] = useState({})
   useEffect(() => {
     WebFont.load({
       google: {
         families: ["Roboto", "sans-serif"],
       },
     });
+    getData();
   }, []);
+
+  const getData =()=>{
+    axios.get(`http://localhost:8080/houses/${id}`).then((res) =>{
+        setDetails(res.data);
+        console.log(res.data);
+    });
+  };
+  const total = details.price * 7;
+  const sum = details.price + total;
+  const navigate = useNavigate();
+
+ 
+  // console.log("working", typeof(details.price));
+
   return (
     <div className={Styles.d_alpaBody}>
       <div className={Styles.d_reactBody}>
         <div className={Styles.d_reactTitle}>
-            <div className={Styles.d_reactTitle1}>Title</div>
+            <div className={Styles.d_reactTitle1}>
+                <h2>{details.title2}</h2>
+            </div>
             <div className={Styles.d_reactTitle2}>
                 <div className={Styles.d_titleSpacing}>
                   <FontAwesomeIcon icon={faStar} size="xs" className={Styles.d_reactTitle2_icon}/>
@@ -51,9 +75,23 @@ export const MyFD = () => {
                 </div>
             </div>
         </div>
-        <div className={Styles.d_mainImg}></div>
+        <div className={Styles.d_mainImg}>
+            {details.map((el) =>(
+              console.log(el.images)
+                // <img src={el.images} alt="" />
+            ))};
+        </div>
         <div className={Styles.d_reactDes}>
           <div className={Styles.d_leftDes}>
+              <div className={Styles.d_desbelow}>
+                  <div className={Styles.d_desbelowDetails}>
+                      <h3 className={Styles.d_desbelowDetails1}>{details.host}</h3>
+                      <p className={Styles.d_desbelowDetails2}>2 guests1 bedroom1 bed1 bathroom</p>
+                  </div>
+                  <div className={Styles.d_desImg1}>
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa5fAD2aRobPXcbIrmlQgmiCY3rb7RwzDgzA&usqp=CAU" alt="Host" />
+                  </div>
+              </div>
             <div className={Styles.d_leftInfo}>
               <div className={Styles.d_leftLoc}>
                 <div className={Styles.d_leftIcon}>
@@ -80,13 +118,7 @@ export const MyFD = () => {
             </div>
             <div className={Styles.d_hotelInfo}>
               <p>
-                A grown-up, sophisticated version of your favorite childhood
-                treehouse. By elevating our studio on stilts, we maximize views
-                up top while leaving the ground below minimally impacted to
-                honour our philosophy of treading lightly on the Earth. Our
-                breezy elevated structures offer a unique off-the-ground
-                experience that emphasizes natural light and plays with space to
-                create a stunning framework for...
+                {details.description}
               </p>
               <p className={Styles.d_showMoreIcon}>
                 Show More <FontAwesomeIcon icon={faAngleRight} />{" "}
@@ -167,7 +199,52 @@ export const MyFD = () => {
               <button className={Styles.d_moreDetails_btn}>Show more amenities</button>
             </div>
           </div>
-          <div className={Styles.d_rightDes}></div>
+          <div className={Styles.d_rightDes}>
+              <div className={Styles.d_rightDesTitle}>
+                  <div className={Styles.d_rightDesTitle1}>
+                      <h3>{"₹ " + details.price + " "}</h3>
+                  </div>
+                  <p className={Styles.d_rightDesTitle2}>{" " + " / night"}</p>
+                  <div className={Styles.d_iconRightDes}>
+                  <p> <FontAwesomeIcon icon={faStar} size="xs" className={Styles.d_reactTitle2_icon}/>4.67.</p>
+                  </div>
+                  <div className={Styles.d_revRightDes}><p>52 reviews</p></div>
+              </div>
+              <div className={Styles.d_rightDate}>
+                  <div className={Styles.d_rightDate1}>
+                    <h5 className={Styles.d_rightDate1_style}>CHECK-IN</h5>
+                    <p className={Styles.d_rightDate1_p}>11/4/2022</p>
+                  </div>
+                  <div className={Styles.d_rightDate2}>
+                    <h5 className={Styles.d_rightDate1_style}>CHECKOUT</h5>
+                    <p className={Styles.d_rightDate1_p}>11/11/2022</p>
+                  </div>
+                  <div className={Styles.d_rightDate3}>
+                    <h5 className={Styles.d_rightDate1_style}>GUESTS</h5>
+                    <p className={Styles.d_rightDate1_p}>1 guest</p>
+                  </div>
+              </div>
+              <div className={Styles.d_right_btn}>
+                <button className={Styles.d_rightReservebtn} onClick={()=>{navigate("/payment")}}>Reserve</button>
+                <div className={Styles.d_rightBill}>
+                  <p className={Styles.d_rightBill_p}>You won't be charged yet</p>
+                </div>
+
+                <div className={Styles.d_rightmoney}>
+                  <p>{"₹ " + details.price + " X 7 nights"}</p>
+                  <p>{total}</p>
+                </div>
+                <div className={Styles.d_rightmoney}>
+                  <p>Service Fee</p>
+                  <p>₹ 5,381</p>
+                </div>
+
+                <div className={Styles.d_righttotal1}>
+                  <p>Total Before Tax</p>
+                  <p>{"₹" + sum}</p>
+                </div>
+              </div>
+          </div>
         </div>
       </div>
       <div className={Styles.d_body}>
