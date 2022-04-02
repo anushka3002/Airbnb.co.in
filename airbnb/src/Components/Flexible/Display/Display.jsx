@@ -19,7 +19,6 @@ export const Display = ({value})=>{
     return (
         <>
             <div className={styles.yHome__section}>
-                {/* <Link className={styles.yHome__section} to="./flexible" ></Link> */}
                 {   data.filter((e)=>{
                     return e['type'] == value
                 })
