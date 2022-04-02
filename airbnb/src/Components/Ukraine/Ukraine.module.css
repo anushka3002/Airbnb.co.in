@@ -1,0 +1,154 @@
+.a_top{
+    width:100%;
+    height:650px;
+    background-size: 100% 100%;
+    background-image: url("./top_pic.png");
+}
+.support{
+    text-align: center;
+}
+.support>h1{
+    margin-top: 7%;
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.support>p{
+    font-size: 20px;
+    padding-left: 25%;
+    padding-right: 25%;
+    line-height:30px;
+}
+.offer_a_place{
+    width:75%;
+    height:550px;
+    /* border:1px solid black; */
+    display: flex;
+    margin:auto;
+    margin-top: 8%;
+}
+.offer_a_place2{
+    width:75%;
+    height:550px;
+    /* border:1px solid black; */
+    display: flex;
+    margin:auto;
+    margin-top: 14%;
+}
+.a_lady_support{
+    width:42%;
+    /* border: 1px solid black; */
+}
+.a_lady_words{
+    margin-left: 8%;
+    margin-top: 2%;
+    width:50%;
+    /* border:1px solid black; */
+}
+.a_man_donation{
+    width:42%;
+}
+.a_man_donation_words{
+    margin-right: 8%;
+    margin-top: 2%;
+    width:50%;
+}
+#host_a_refugee{
+    padding-top:15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 26px;
+    padding-right: 26px;
+    border-radius: 8px;
+    margin-top: 3%;
+    border:1px solid transparent;
+    color:white;
+    background-color: #222222;
+}
+.donation_box{
+    width:100%;
+    height:20%;
+    border:1px solid rgb(234, 228, 228);
+    display: flex;
+    line-height: 25px;
+    border-radius: 8px;
+}
+.donation_image{
+    width:10%;
+    height:40%;
+    border:2px solid #307a93;
+    border-radius: 50%;
+    margin:5%;
+    padding:5px;
+}
+.a_contribution{
+    /* border:1px solid black; */
+    width:75%;
+    display: flex;
+    height:400px;
+    margin:auto;
+    margin-top:16%;
+}
+.a_contribution>div{
+    /* border:1px solid black; */
+    width:50%;
+
+}
+.a_contribution>div>h1{
+    font-size: 50px;
+    margin-top: 1%;
+}
+.ukraine_footer{
+    width:100%;
+    height:260px;
+    background-color: #004156;
+    display: flex;
+}
+.bottom_footer{
+    width:100%;
+    height:80px;
+    background-color: #005c7a;
+    display: flex;
+}
+.bottom_footer>h3{
+    margin-top: 2%;
+    font-weight: 900;
+}
+.bottom_footer>img{
+    margin-top: 5px;
+    margin-left: 2%;
+}
+.ukraine_footer>div{
+    /* border:1px solid black; */
+    width:25%;
+    height:100%;
+}
+.ukraine_footer>div>h3{
+    color:white;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+.ukraine_footer>div>h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.ukraine_footer>div>button{
+    border:2px solid white;
+    background-color: transparent;
+    color:white;
+    border-radius: 7px;
+    font-size: 16px;
+    padding-top:13px;
+    padding-bottom: 13px;
+    font-weight: 600;
+    padding-left: 23px;
+    padding-right: 23px;
+    margin-top: 15%;
+    margin-left: 50%;
+}
+.ukraine_footer>div>button:hover{
+    cursor: pointer;
+}
