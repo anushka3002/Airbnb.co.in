@@ -30,10 +30,10 @@ function App() {
       {/* <Navbar/> */}
       {/* <Card/> */}
       {/* <CardComponent/> */}
-      {/* <LandingPage/> */}
+      <LandingPage/>
 
       {/* <Routers/> */}
-      <Singup/>
+      {/* <Singup/> */}
       {/* <Host/> */}
       {/* <Footer/> */}
 {/* <Ukraine/> */}

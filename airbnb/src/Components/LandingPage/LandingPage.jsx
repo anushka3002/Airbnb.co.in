@@ -121,7 +121,7 @@ const Navigate=useNavigate();
                 <div className={Styles.a_home_text_container}>
                 <p className={Styles.a_home_text}>Let your curiosity do the booking</p>
                 </div>
-                <Link style={{textDecoration:"none"}} to={"./flexible"}><div className={Styles.aflexible}><h4 id={Styles.aflextext}>I'm flexible</h4></div></Link>
+                <Link style={{textDecoration:"none"}} to={"/flexible"}><div className={Styles.aflexible}><h4 id={Styles.aflextext}>I'm flexible</h4></div></Link>
             </div></div>
 
         <div className={Styles.places_card_container}>
