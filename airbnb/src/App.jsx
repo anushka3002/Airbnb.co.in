@@ -11,6 +11,7 @@ import { Host } from './Components/Become_a_host/Host'
 
 import { CardComponent } from './Components/Places_card/Travel_card'
 import { Routers } from './Components/Routers/router'
+import { Ukraine } from './Components/Ukraine/Ukraine'
 
 
 function App() {
@@ -27,9 +28,9 @@ function App() {
       {/* <Singup/> */}
       {/* <Host/> */}
       {/* <Footer/> */}
-
+{/* <Ukraine/> */}
       {/* <MyFD/> */}
-      <Footer/>
+      {/* <Footer/> */}
 
     </div>
   )
