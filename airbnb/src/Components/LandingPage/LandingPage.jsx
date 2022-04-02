@@ -7,7 +7,13 @@ import "./Landing.css"
 import { Footer } from "../Footer/Footer";
 export const LandingPage =()=>{
 
+    const styles = {
+        C1: "a_right_nav",
+        C2: "active",        
+      }
+
 const [navbar,setNavbar]=useState(false)
+const [host_new,setHostNew]=useState(false)
 const [air_logo,setLogo]=useState(false)
 const [globe,setGlobe]=useState(false)
 const [become_host,setBecomeHost]=useState(false)
@@ -24,6 +30,7 @@ const changeNavbar=()=>{
         setLowerHead(true)
         setNavmiddle(true)
         setScrollSearch(true)
+        setHostNew(true)
     }
     else{
         setNavbar(false)
@@ -33,6 +40,7 @@ const changeNavbar=()=>{
         setLowerHead(false)
         setNavmiddle(false)
         setScrollSearch(false)
+        setHostNew(false)
     }
     // console.log(window.scrollY)
 }
@@ -60,8 +68,9 @@ window.addEventListener("scroll",changeNavbar)
                 </span>
                     </div>
                     
-                    <div className={become_host?"a_right_nav active":"a_right_nav"}>
-                    <Link to={'/become_a_host'}><p style={{color:"white",textDecoration:"none"}}>Become a host</p></Link>
+                    {/* <div className={become_host?"a_right_nav active":"a_right_nav"}> */}
+                    <div className={become_host?`${styles.C2} ${styles.C1}`:`${styles.C1}`}>
+                    <Link style={{textDecoration:"none"}} to={'/become_a_host'}><p className={lower_head?"host_decoration active":"host_decoration"}>Become a host</p></Link>
                     <div className={globe?"globe_logo active":"globe_logo"}></div>
                     <Hamburger/>
                     </div>
@@ -102,7 +111,7 @@ window.addEventListener("scroll",changeNavbar)
                 <div className={Styles.a_home_text_container}>
                 <p className={Styles.a_home_text}>Let your curiosity do the booking</p>
                 </div>
-                <Link to={"./flexible"}><div className={Styles.aflexible}><h4 id={Styles.aflextext}>I'm flexible</h4></div></Link>
+                <Link style={{textDecoration:"none"}} to={"./flexible"}><div className={Styles.aflexible}><h4 id={Styles.aflextext}>I'm flexible</h4></div></Link>
             </div></div>
 
         <div className={Styles.places_card_container}>

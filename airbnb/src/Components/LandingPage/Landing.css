@@ -41,6 +41,7 @@
       height:17px;
   }
   .a_right_nav{
+    /* border:1px solid white; */
     display:flex;
     justify-content:space-between;
     width:21%;
@@ -48,12 +49,18 @@
     font-weight: 400;
     font-size: 15px;
     margin-top: 1px;
-    text-decoration: none;
-    text-underline-offset: 0;
-    /* border:1px solid rgb(214, 40, 40); */
-    }
+  }
+  .host_decoration{
+      color:white;
+  }
+  .host_decoration.active{
+      color:black;
+      font-weight: 500;
+      font-size: 14px;
+  }
     .a_right_nav.active{
       color:black;
+      color:white;
       font-weight: 500;
       font-size: 14px;
       margin-top: 5px;
