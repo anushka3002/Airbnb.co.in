@@ -17,7 +17,7 @@ export const CardComponent = ({object})=>{
             <div className={styles.yCard_info}>
                 <div>
                     <span className={styles.yTitle}>{object['title']}</span>
-                    <span className={styles.yPrice}>{"₹"+object['price']+" / night"}</span>    
+                    <span className={styles.yPrice}>{"₹ "+object['price']+" /night"}</span>    
                 </div>
 
                 <div>

@@ -9,10 +9,16 @@ import LanguageIcon from "@material-ui/icons/Language";
 
 import { Filters } from "../Filters/Filters";
 import { Display } from "../Display/Display";
+import { Register } from "../Register/Register";
 
 // import 'bootstrap/dist/css/bootstrap.css';
 export const NavbarComponent = ()=>{
     const [filter,setValue] = useState("Farms");
+    const [regState,setRegister] = useState(false);
+
+    const handleRegister = ()=>{
+        setRegister(!regState)
+    }
     const setFilter = (value)=>{
         setValue(value)
     }
@@ -31,12 +37,15 @@ export const NavbarComponent = ()=>{
                 <div className='yHeader__right'>
                     <span>Become a host</span>
                     <LanguageIcon></LanguageIcon>
-                    <div className="yInner_right">
-                    <FaBars></FaBars>
-                    <FaUserCircle size={25}></FaUserCircle>
+                    <div className="yInner_right" onClick={handleRegister}>
+                        <FaBars></FaBars>
+                        <FaUserCircle size={25}></FaUserCircle>
                     </div>
                 </div>
             </div>
+            {regState && (
+                <Register></Register>
+            )}
 
         <Filters fn={setFilter}></Filters>
         <Display value={filter}></Display>
