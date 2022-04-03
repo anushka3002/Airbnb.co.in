@@ -67,9 +67,9 @@ const Navigate=useNavigate();
                         <div className={air_logo?"logo active":"logo"}></div>
                     </div>
                     <div className={navmiddle?"a_navmiddle active":"a_navmiddle"}>
-                        <p>Places to stay</p>
-                        <p>Experiences</p>
-                        <p>Online Experiences</p>
+                        <Link style={{textDecoration:"none",color:"white"}} to={"/flexible"}><p>Places to stay</p></Link>
+                        <Link style={{textDecoration:"none",color:"white"}} to={"/flexible"}><p>Experiences</p></Link>
+                        <Link style={{textDecoration:"none",color:"white"}} to={"/flexible"}><p>Online Experiences</p></Link>
                     </div>
 
                     <div className={scroll_search?"after_scroll_search active":"after_scroll_search"}>
@@ -129,31 +129,31 @@ const Navigate=useNavigate();
             <div className={Styles.aplaces_cards}>
                 <div className={Styles.place_individual_card}>
                     <img className={Styles.a_scenery_image} src="https://a0.muscache.com/im/pictures/73250991-433e-4950-b7d1-59bba711bb57.jpg?im_w=480" width="100%"></img>
-                    <div style={{backgroundColor:"#bc1a6e"}} className={Styles.a_card_color}>
+                    <Link style={{textDecoration:"none"}} to={"/flexible"}><div style={{backgroundColor:"#bc1a6e"}} className={Styles.a_card_color}>
                         <p className={Styles.a_places_title}>Mussoorie</p>
                         <p className={Styles.a_place_distance}>223 kilometers away</p>
-                    </div>
+                    </div></Link>
                 </div>
                 <div className={Styles.place_individual_card}>
                 <img className={Styles.a_scenery_image} src="https://a0.muscache.com/im/pictures/aef20929-0d6a-40e7-8ac9-321ff0edf8c9.jpg?im_w=480" width="100%"></img>
-                    <div style={{backgroundColor:"#cc2d4a"}} className={Styles.a_card_color}>
+                <Link style={{textDecoration:"none"}} to={"/flexible"}><div style={{backgroundColor:"#cc2d4a"}} className={Styles.a_card_color}>
                         <p className={Styles.a_places_title}>Manali</p>
                         <p className={Styles.a_place_distance}>405 kilometers away</p>
-                    </div>
+                    </div></Link>
                 </div>
                 <div className={Styles.place_individual_card}>
                 <img className={Styles.a_scenery_image} src="https://a0.muscache.com/im/pictures/57d3fdbd-9dde-4b6f-98af-64d38d6ffd02.jpg?im_w=480" width="100%"></img>
-                    <div style={{backgroundColor:"#d93b30"}} className={Styles.a_card_color}>
+                <Link style={{textDecoration:"none"}} to={"/flexible"}><div style={{backgroundColor:"#d93b30"}} className={Styles.a_card_color}>
                         <p className={Styles.a_places_title}>Kasauli</p>
                         <p className={Styles.a_place_distance}>257 kilometers away</p>
-                    </div>
+                    </div></Link>
                 </div>
                 <div className={Styles.place_individual_card}>
                 <img className={Styles.a_scenery_image} src="https://a0.muscache.com/im/pictures/cccdc2e6-e6dc-4706-b9d4-ee2a80115703.jpg?im_w=480" width="100%"></img>
-                    <div style={{backgroundColor:"#de3151"}} className={Styles.a_card_color}>
+                <Link style={{textDecoration:"none"}} to={"/flexible"}><div style={{backgroundColor:"#de3151"}} className={Styles.a_card_color}>
                         <p className={Styles.a_places_title}>Haldwani</p>
                         <p className={Styles.a_place_distance}>235 kilometers away</p>
-                    </div>
+                    </div></Link>
                 </div>
 
             </div>
@@ -164,11 +164,11 @@ const Navigate=useNavigate();
             <div className={Styles.a_discover_images}>
                 <div className={Styles.a_image_left}>
                     <p className={Styles.a_discover_title}>Things to do on your trip</p>
-                    <button className={Styles.a_discover_button}>Experiences</button>
+                    <Link to={"/flexible"}><button className={Styles.a_discover_button}>Experiences</button></Link>
                 </div>
                 <div className={Styles.a_image_right}>
                     <p className={Styles.a_discover_title}>Things to do from home</p>
-                    <button className={Styles.a_discover_button}>Online Experiences</button>
+                    <Link to={"/flexible"}><button className={Styles.a_discover_button}>Online Experiences</button></Link>
                 </div>
             </div>
         </div>
