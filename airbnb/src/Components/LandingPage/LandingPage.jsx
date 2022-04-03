@@ -3,7 +3,6 @@ import Styles from "./LandingPage.module.css";
 import { Hamburger } from "../Hamburger/Hamburger";
 import { Register } from "../Flexible/Register/Register";
 
-
 import { useState } from "react";
 import { Link, Navigate, useNavigate } from "react-router-dom";
 import "./Landing.css"
@@ -59,9 +58,10 @@ window.addEventListener("scroll",changeNavbar)
 
 const Navigate=useNavigate();
     return (
-        <div className={Styles.abody}>
-<Link className={Styles.abody} to={"/"}></Link>
-<div className={navbar?"navbar active":"navbar"}>
+        <>  
+            <div className={Styles.abody}>
+            <Link className={Styles.abody} to={"/"}></Link>
+            <div className={navbar?"navbar active":"navbar"}>
                 <div className={Styles.a_upper_header}>
                     <div style={{marginLeft:"-1%",marginTop:"1%"}}>
                         <div className={air_logo?"logo active":"logo"}></div>
@@ -121,7 +121,7 @@ const Navigate=useNavigate();
                 <div className={Styles.a_home_text_container}>
                 <p className={Styles.a_home_text}>Let your curiosity do the booking</p>
                 </div>
-                <Link style={{textDecoration:"none"}} to={"/flexible"}><div className={Styles.aflexible}><h4 id={Styles.aflextext}>I'm flexible</h4></div></Link>
+                <Link style={{textDecoration:"none"}} to={"./flexible"}><div className={Styles.aflexible}><h4 id={Styles.aflextext}>I'm flexible</h4></div></Link>
             </div></div>
 
         <div className={Styles.places_card_container}>
@@ -186,5 +186,6 @@ const Navigate=useNavigate();
 
 <Footer/>
         </div>
+        </>
     )
 }

@@ -33,7 +33,6 @@ import { Footer } from "../Footer/Footer";
 export const MyFD = () => {
   let { id } = useParams();
   id = id.replace(":", "");
-  // console.log("id is",id)
   const [details, setDetails] = useState({});
   const [img, setImg] = useState([]);
   useEffect(() => {
@@ -47,7 +46,7 @@ export const MyFD = () => {
 
   const getData = () => {
     axios
-      .get(`http://localhost:8080/houses/${id}`)
+      .get(`https://mysivaji.herokuapp.com/houses/${id}`)
       .then((res) => {
         setDetails(res.data);
         setImg(res.data.images);
@@ -66,7 +65,6 @@ export const MyFD = () => {
   else{
     price = x.replace(",", "")
   }
-  // const price = x.replace(",", "") || [];
   const num = Number(price);
   const total = num * 7;
   const sum = num + total;
@@ -370,10 +368,10 @@ export const MyFD = () => {
             <div className={Styles.d_nameBox}>
               <div className={Styles.d_imgName}>
                 <div className={Styles.d_img}>
-                  <img src="https://via.placeholder.com/50" alt="" />
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqwAapnZ1EZ5P1X8Dfyu6AdFXY5EayRplC0g&usqp=CAU" alt="" />
                 </div>
                 <div className={Styles.d_myName}>
-                  <h4>Dhruv</h4>
+                  <h4>Aman</h4>
                   <span>January 2020</span>
                 </div>
               </div>
@@ -389,8 +387,8 @@ export const MyFD = () => {
 
             <div className={Styles.d_nameBox}>
               <div className={Styles.d_imgName}>
-                <div className={Styles.d_img}>
-                  <img src="https://via.placeholder.com/50" alt="" />
+                <div className={Styles.d_img2}>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTevMaIfS8yFOE5PDE10dyBTQaWnfqH-zuYg&usqp=CAU" alt="" />
                 </div>
                 <div className={Styles.d_myName}>
                   <h4>Sejalba</h4>
@@ -406,7 +404,7 @@ export const MyFD = () => {
             <div className={Styles.d_nameBox}>
               <div className={Styles.d_imgName}>
                 <div className={Styles.d_img}>
-                  <img src="https://via.placeholder.com/50" alt="" />
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7BTv8lLtBs1-CgYwME-esLxYTfvpOXM_Wrg&usqp=CAU" alt="" />
                 </div>
                 <div className={Styles.d_myName}>
                   <h4>Vishal & Khyati</h4>
@@ -426,7 +424,7 @@ export const MyFD = () => {
             <div className={Styles.d_nameBox}>
               <div className={Styles.d_imgName}>
                 <div className={Styles.d_img}>
-                  <img src="https://via.placeholder.com/50" alt="" />
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMDb342yA-0G8IN6YAaw5RhzHuczCqA2yzCw&usqp=CAU" alt="" />
                 </div>
                 <div className={Styles.d_myName}>
                   <h4>Anuj</h4>
@@ -446,7 +444,7 @@ export const MyFD = () => {
             <div className={Styles.d_nameBox}>
               <div className={Styles.d_imgName}>
                 <div className={Styles.d_img}>
-                  <img src="https://via.placeholder.com/50" alt="" />
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY3t_d8a_YJg6o5wtcY6RY_FgXgKA39CmKiQ&usqp=CAU" alt="" />
                 </div>
                 <div className={Styles.d_myName}>
                   <h4>Nayeli</h4>
@@ -466,7 +464,7 @@ export const MyFD = () => {
             <div className={Styles.d_nameBox}>
               <div className={Styles.d_imgName}>
                 <div className={Styles.d_img}>
-                  <img src="https://via.placeholder.com/50" alt="" />
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyOlpiyZibX3HWFsyoAPJpd-cB2JhKP8v5Xg&usqp=CAU" alt="" />
                 </div>
                 <div className={Styles.d_myName}>
                   <h4>Azhar</h4>
@@ -491,7 +489,7 @@ export const MyFD = () => {
         {/* This is the Hosted by area */}
         <div className={Styles.d_host}>
           <div className={Styles.d_hostImg}>
-            <img src="https://via.placeholder.com/50" alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOOals90yoPpPBlA1-nOB7bLu_NAGuImdYdA&usqp=CAU" alt="" />
             <div className={Styles.d_hostName}>
               <h2>Hosted by Mega</h2>
               <span>Joined in August 2015</span>
