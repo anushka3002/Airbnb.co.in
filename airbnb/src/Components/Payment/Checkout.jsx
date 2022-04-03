@@ -21,7 +21,7 @@ export const Checkout =() =>{
                     
                     </div>
                 <div id={styles.schoose}><p>Choose a payment option</p></div>
-                <div id={styles.samount}><p><b>Total Payable Amount &nbsp;  ₹61,015.74</b></p></div>
+                {/* <div id={styles.samount}><p><b>Total Payable Amount &nbsp;  ₹61,015.74</b></p></div> */}
             </div>
             <div id={styles.stwo}>
 

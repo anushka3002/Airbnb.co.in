@@ -269,7 +269,7 @@ export const MyFD = () => {
               </div>
             </div>
             <div className={Styles.d_right_btn}>
-              <Link to={"/payment/:id"}><button
+              <Link to={`/payment/:${id}`}><button
                 className={Styles.d_rightReservebtn}>
                 Reserve
               </button></Link>
