@@ -3,6 +3,7 @@ import { Singup } from "../../LoginSignup/Signup";
 import { useState } from "react";
 import { Google_auth } from "../../LoginSignup/Google_auth";
 
+
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button"
 import { style } from "@mui/system";

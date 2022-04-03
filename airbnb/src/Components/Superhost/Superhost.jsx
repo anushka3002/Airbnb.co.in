@@ -89,7 +89,7 @@ export const Superhost = () =>{
                     <div id={styles.soneokati}>
                         <div id={styles.smeet}>
                         <p id={styles.ssstep}>Step 3</p>
-                        <p id={styles.ssmeets}>Meet your Superhost</p>
+                        <p id={styles.ssmeets}>welcome your first guest</p>
                         <hr></hr>
 
                         <div id={styles.ssimaan}>

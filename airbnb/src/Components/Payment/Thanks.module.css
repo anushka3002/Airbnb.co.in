@@ -3,15 +3,18 @@
     width:90%;
     /* border:1px solid red; */
     margin:auto;
+    cursor:pointer;
 }
 #sbooking{
-    height:50%;
+    height:80%;
     width:80%;
     /* border: 1px solid yellow; */
     margin: auto;
     margin-top: 5%;
-    background-color: rgb(32, 197, 197);
-   
+    background-color: #ff385c;
+    border-radius: 10px;
+    padding-top: 1px;
+    
 }
 #sconfir{
     font-size: 300%;
@@ -20,6 +23,6 @@
     font-style:oblique;
    
   
-    margin-top: 10%;
+    margin-top: 8%;
    
 }
