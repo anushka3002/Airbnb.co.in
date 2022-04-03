@@ -22,7 +22,7 @@ export const Routers=()=>{
             <Route path="/superhost" element={<Superhost/>}/>
             <Route path="/Support_Ukraine" element={<Ukraine/>}/>
             <Route path ={"/payment/:id"} element = {<Payment/>}></Route>
-            <Route/>
+            <Route path ={"/details/:id"} element={<Payment/>}/>
             <Route path ={"/check"} element = {<Checkout/>}></Route>
             <Route path ={"/card"} element = {<Card/>}></Route>
             <Route path ={"/thank"} element = {<Thank/>}></Route>
