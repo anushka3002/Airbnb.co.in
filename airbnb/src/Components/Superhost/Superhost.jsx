@@ -3,6 +3,7 @@ import superhost from "./superhost.png"
 import womenhost from"./womenhost.jpg"
 import imman from "./imman.jpg"
 import khun from "./khun.jpg"
+import { Footer } from "../Footer/Footer"
 export const Superhost = () =>{
     let price=20;
     return (
@@ -126,15 +127,9 @@ export const Superhost = () =>{
 
                 </div>
             </div>
-
-
-
-
-
-
-
-              
+  
             </div>
+            <Footer/>
         </div>
     )
 }
