@@ -10,15 +10,6 @@ export const Hamburger=()=>{
             <div>
                 <img style={{borderRadius:"50%"}} src="https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-default-avatar-profile-icon-vector-social-media-user-image-vector-illustration-227787227.jpg" width="39px" height="36px"></img>
             </div>
-            {/* <div className="dropdown">
-                <ul>
-                    <li>Sign up</li>
-                    <li>Login</li>
-                    <li>Experiences</li>
-                    <li>Places</li>
-                    <li>Online Experiences</li>
-                </ul>
-            </div> */}
         </div>
     )
 }

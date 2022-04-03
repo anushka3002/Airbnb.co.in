@@ -36,10 +36,17 @@ export const NavbarComponent = ()=>{
                 />
                 <div className='yHeader__right'>
                     <span>Become a host</span>
-                    <LanguageIcon></LanguageIcon>
+                    {/* <LanguageIcon></LanguageIcon> */}
+                    <img src="https://cdn1.iconfinder.com/data/icons/ui-next-2020-shopping-and-e-commerce-1/12/75_globe-512.png" width="15px"></img>
                     <div className="yInner_right" onClick={handleRegister}>
-                        <FaBars></FaBars>
-                        <FaUserCircle size={25}></FaUserCircle>
+                    <div className="a_hamburger">
+                        <div>
+                            <img style={{paddingTop:"10px",marginLeft:"10px"}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe2qzjGHx362VfxQWKWwi2GCEoyqUnsRIm9jEF2oIlWx6Z76KjowacdQTq8s4UfonUSnA&usqp=CAU" width="20px"></img>
+                        </div>
+                        <div>
+                            <img style={{borderRadius:"50%"}} src="https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-default-avatar-profile-icon-vector-social-media-user-image-vector-illustration-227787227.jpg" width="39px" height="36px"></img>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
