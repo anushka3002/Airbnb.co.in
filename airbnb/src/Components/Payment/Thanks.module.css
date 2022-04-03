@@ -1,0 +1,25 @@
+#sthanks{
+    height:400px;
+    width:90%;
+    /* border:1px solid red; */
+    margin:auto;
+}
+#sbooking{
+    height:50%;
+    width:80%;
+    /* border: 1px solid yellow; */
+    margin: auto;
+    margin-top: 5%;
+    background-color: rgb(32, 197, 197);
+   
+}
+#sconfir{
+    font-size: 300%;
+    font-weight: bolder;
+    margin-left: 20%;
+    font-style:oblique;
+   
+  
+    margin-top: 10%;
+   
+}
