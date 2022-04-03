@@ -15,7 +15,7 @@ import { DatePicker } from "../DatePicker/DatePicker"
 import { Guests } from "../Guests/Guests";
 import { CustomizedSlider } from "../AirbnbSlider/Slider"
 import { Counter } from "../Counter/Counter";
-// import { Checkbox } from "../Checkbox/Checkbox";
+import { Checkbox } from "../Checkbox/Checkbox";
 
 export const Filters = ({fn})=>{
 
@@ -250,7 +250,7 @@ export const Filters = ({fn})=>{
                     </Modal.Header>     
 
                     <Modal.Body>
-                        {/* <Checkbox object={type_places}></Checkbox> */}
+                        <Checkbox object={type_places}></Checkbox>
                         <hr />
                     </Modal.Body>
 
@@ -326,13 +326,13 @@ export const Filters = ({fn})=>{
                     <hr />
                     </Modal.Body> 
                     
-                    {/* {check_list.map((e,i)=>(
+                 {check_list.map((e,i)=>(
                         <Modal.Body>
                         <Checkbox object={e}></Checkbox>
                         <a className="yLinks" href="*">{`Show all ${Object.keys(e)}`}</a>
                         <hr />
                         </Modal.Body>
-                    ))} */}
+                    ))} 
 
                     <Modal.Footer>
                     <Button variant="secondary" onClick={closeFilters}>
