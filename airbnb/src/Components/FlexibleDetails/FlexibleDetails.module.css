@@ -242,7 +242,6 @@
   grid-template-columns: repeat(2, 40%);
   grid-gap: 5%;
 }
-
 .d_hostIcons {
   width: 100%;
   display: flex;
@@ -388,6 +387,7 @@
 .d_footerFinal {
   margin-left: 6%;
   font-size: 14px;
+  margin-bottom: 5%;
 }
 
 /* the top part */

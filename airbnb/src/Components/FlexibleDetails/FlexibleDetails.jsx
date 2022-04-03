@@ -28,6 +28,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { Link, useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import { Footer } from "../Footer/Footer";
 
 export const MyFD = () => {
   let { id } = useParams();
@@ -659,6 +660,7 @@ export const MyFD = () => {
           <FontAwesomeIcon icon={faAngleRight} /> Gianyar Regency
         </span>
       </div>
+      <Footer/>
     </div>
   );
 };
