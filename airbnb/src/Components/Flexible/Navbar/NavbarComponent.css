@@ -4,16 +4,16 @@
     align-items: center;
     top: 0;
     z-index: 100;
-    padding-left: 2%;
-    padding-right: 2%;
-    border-bottom: 1px solid grey;
+    padding-left:4%;
+    padding-right:4%;
+    border-bottom: 1px solid rgb(243, 236, 236);
     margin-bottom: 20px;
   }
 
   
   .yHeader__icon {
     object-fit: contain;
-    height: 100px;
+    height: 80px;
     margin-left: 20px;
   }
   
@@ -22,15 +22,19 @@
     align-items: center;
     justify-content: space-evenly;
     width: 300px;
+    font-size: 14px;
+    font-weight: 500;
   }
 
   
-  .yInner_right{
-      box-shadow: #00000005 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-      border-radius: 20px;
-      display: flex;
-      justify-content: space-around;
-      width: 80px;
-      align-items: center;
-      padding: 2%;
-  }
+  .a_hamburger{
+    margin-top:7px;
+    width:100%;
+    height:73%;
+    border-radius: 30px;
+    background-color: white;
+    border:1px solid transparent;
+    display: flex;
+    color:black;
+    border:1px solid rgb(204, 195, 195);
+    }

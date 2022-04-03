@@ -3,7 +3,7 @@
   overflow: hidden;
   transition: transform 100ms ease-in;
   cursor: pointer;
-  width: 280px;
+  width: 260px;
   border-radius: 5%;
   text-decoration: none;
   color: black;
@@ -12,7 +12,7 @@
   .yDisplay_img {
     border-radius: 5%;
     object-fit: fill;
-    height: 300px;
+    height: 270px;
     width: 100%;
   }
   

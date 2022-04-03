@@ -1,5 +1,7 @@
 .yHome__section{
-    padding: 2%;
+    padding-left:5%;
+    padding-right:5%;
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    padding-bottom: 10%;
 }

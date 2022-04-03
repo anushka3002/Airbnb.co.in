@@ -87,7 +87,7 @@ export const Superhost = () =>{
                 {/* <img src={womenhost} alt="Logo" /> */}
                     <div id={styles.soneokati}>
                         <div id={styles.smeet}>
-                        <p id={styles.ssstep}>Step 1</p>
+                        <p id={styles.ssstep}>Step 3</p>
                         <p id={styles.ssmeets}>Meet your Superhost</p>
                         <hr></hr>
 

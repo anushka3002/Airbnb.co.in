@@ -369,7 +369,116 @@
             "distance":"5,158 Kilometres away",
             "date":"12-19 Apr",
             "host": "Private room in resort hosted by Pranit"
+        },
+        {   
+            "id":21,
+            "images":[
+                "https://a0.muscache.com/im/pictures/a18ea476-bced-4953-9c39-b17948424a60.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/3cf9a2a1-73e8-4142-adf4-13aa6293cf96.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/65f552e8-80f2-49a5-9e48-1eb9546478d9.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/3ebbc3ee-c350-4413-85c9-b8fb87d82d2e.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/30df7ba2-330f-43b7-bca8-aa20b733389a.jpg?im_w=720"
+            ],
+            "title":"Mudigere, Karnataka",
+            "title2": "Kambalakaad Holiday Home - Private Villa Hilltop",
+            "type":"Farms",
+            "description":"A stay surrounding lush green coffee estate, beautiful mountain view, nestled admist the extensive western ghats of Chikamagalur. A perfect home ambience spread out to offer every guest their own space without intrusion.            ",
+            "price":"3,971",
+            "distance":"1,730 Kilometres away",
+            "date":"17-24 Apr",
+            "host": "Private room hosted by Apoorva"
+        },
+        {   
+            "id":22,
+            "images":[
+                "https://a0.muscache.com/im/pictures/miso/Hosting-43744671/original/344579c7-a1be-401e-a0e9-003290d106b0.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-43744671/original/713b67b4-88b9-439c-bb5c-928bee4e1398.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-43744671/original/3ece69af-8f8f-4a5f-9013-9a28d7826187.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/621d3810-a9cc-487d-81ec-fd49a3cb0f90.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-43744671/original/6ed3df2e-18eb-4989-962d-213ecfe06050.jpeg?im_w=720"
+            ],
+            "title":"Shanghai, Shanghai",
+            "title2": "大渔海糖「蝶恋花」迪士尼乐园 接送 浴缸 浪漫情调 躺椅落地窗 田园风光 泳池 花园 奥特莱斯 早餐",
+            "type":"Farms",
+            "description":"Superhosts are experienced, highly rated hosts who are committed to providing great stays for their guests.",
+            "price":"4,668",
+            "distance":"4,273 Kilometres away",
+            "date":"3-10 Apr",
+            "host": "Private room in kezhan hosted by 小k"
+        },
+        {   
+            "id":23,
+            "images":[
+                "https://a0.muscache.com/im/pictures/miso/Hosting-19114863/original/a4da036d-40bc-468e-a6e1-48feb95add2c.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-19114863/original/8fda96bf-899a-433b-adc2-50d8fb224f4b.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-19114863/original/ad1b30aa-5c9f-441d-bc41-5048e0bde429.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/20469f50-8ed4-4ab8-afa5-77c74515cf0d.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/001fb01f-3293-43a2-b52a-e0054214daf2.jpg?im_w=720"
+            ],
+            "title":"Oresani",
+            "title2": "Farm Guesthouse Twin Room, near the Airport",
+            "type":"Farms",
+            "description":"Nestled In the hills of the tiny village of Oreshani, a former mushroom farm has been transformed into a charming guesthouse... with beautiful views, a thermal spa nearby, and a gracious host, always happy to share a hot cup of Macedonian coffee or a cold glass of fresh, goat yogurt.",
+            "price":"1,055",
+            "distance":"5,166 Kilometres away",
+            "date":"3-10 Apr",
+            "host": "Private room in farm stay hosted by Tihomir"
+        },
+        {   
+            "id":24,
+            "images":[
+                "https://a0.muscache.com/im/pictures/30cd37d5-c405-4f49-b0be-52854b26bef7.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/f3876e66-98f2-4ae8-b67b-f6f803d7ac76.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/2bd43bec-f066-4488-b1c1-f21c1dd35927.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/3c30bf5b-245d-413e-b67a-68b8de29807f.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/24f5844d-6a51-4157-8368-246084a51bbd.jpg?im_w=720"
+            ],
+            "title":"Nerul, Goa",
+            "title2": "Striking Penthouse With Private Plunge Pool",
+            "type":"Farms",
+            "description":"Our luxury Penthouse is located in the quaint village of Nerul, overlooking paddy fields and the Nerul River. It has a sprawling bedroom with stunning views. The bedroom comes with an en-suite bathroom. There is also a sleek and well styled kitchen with modern fixtures and is fully equipped with all the essentials. The best part of this Penthouse is the gorgeous plunge pool, for your private use, and a lovely and spacious terrace to enjoy those amazing sunsets. The perfect romantic getaway!",
+            "price":"11,850",
+            "distance":"1,497 Kilometres away",
+            "date":"14-27 May",
+            "host": "Entire loft hosted by Himani"
+        },
+        {   
+            "id":25,
+            "images":[
+                "https://a0.muscache.com/im/pictures/046fa012-11a7-4614-9511-9c1a48cfa50f.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/87e1ad1a-7bd0-4555-9458-b0e2e911f397.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-39089543/original/39e90f8f-a7d5-4290-91ca-37040993688b.jpeg?im_w=720",
+                "https://a0.muscache.com/im/pictures/b2e0c155-a737-49c2-a06d-54a4daa89074.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/b2bdd1d8-8b6a-45ed-a511-5fd5bbd0fdf4.jpg?im_w=720"
+            ],
+            "title":"Tagatay City",
+            "title2": "Casa Aldeno Tagaytay",
+            "type":"Farms",
+            "description":"Brand new Industrial Eclectic home nestled in the heart of Tagaytay. Entrance is beside Rowena’s & a 10-min walk to Tagaytay Fruit and Flower Market. Accessible to popular restaurants & parks, yet perfect for bonding with family & friends.",
+            "price":"10,262",
+            "distance":"4,778 Kilometres away",
+            "date":"16-23 Apr",
+            "host": "Entire home hosted by Joy"
+        },
+        {   
+            "id":26,
+            "images":[
+                "https://a0.muscache.com/im/pictures/fef60b45-dcc2-411f-a89d-06bb076bcec3.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/25808352-e890-4c11-85c8-a337369c5d84.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/a4671a66-fc97-4ce9-8988-56c416b44ac1.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/1760ceb1-0afa-40db-b9ee-f3cb855b0270.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/0b81964e-829a-4e8d-82c8-a79f60cb8e10.jpg?im_w=720"
+            ],
+            "title":"Bengaluru, Karnataka",
+            "title2": "PEARL by INSA, Private villa, Lawn view",
+            "type":"Farms",
+            "description":"A cozy private 2BHK villa with a beautiful sit out and a built in born fire. Suitable for private parties & simple getaways.",
+            "price":"6,173",
+            "distance":"1,730 Kilometres away",
+            "date":"10-17 Apr",
+            "host": "Farm stay hosted by Syed"
         }
+
  
     ]
 }

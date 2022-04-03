@@ -27,24 +27,9 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Navbar/> */}
-      {/* <Card/> */}
-      {/* <CardComponent/> */}
-      <LandingPage/>
-
-      {/* <Routers/> */}
+      <Routers/>
       {/* <Singup/> */}
-      {/* <Host/> */}
-      {/* <Footer/> */}
-{/* <Ukraine/> */}
-      {/* <MyFD/> */}
-{/* <<<<<<< HEAD */}
-      {/* <Footer/> */}
-{/*       
-======= */}
-      {/* <Footer/> */}
-{/* >>>>>>> 8019e7af934f9db7a86ae4dc9dc8421961bb1c3a */}
-
+      
     </div>
   )
 }
