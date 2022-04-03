@@ -8,6 +8,7 @@ import { Register } from "../Register/Register"
 
 // import "./display.css"
 import styles from "./Display.module.css"
+import { Footer } from "../../Footer/Footer";
 export const Display = ({value})=>{
     const [data,setData] = useState([]);
     
@@ -26,7 +27,8 @@ export const Display = ({value})=>{
                 .map((e,i)=>(
                     <CardComponent key={i} object={e}></CardComponent>
                 ))}
-            </div>                
+            </div>
+            <Footer/>                
         </>
     )
 }

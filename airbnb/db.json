@@ -459,7 +459,26 @@
             "distance":"4,778 Kilometres away",
             "date":"16-23 Apr",
             "host": "Entire home hosted by Joy"
+        },
+        {   
+            "id":26,
+            "images":[
+                "https://a0.muscache.com/im/pictures/fef60b45-dcc2-411f-a89d-06bb076bcec3.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/25808352-e890-4c11-85c8-a337369c5d84.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/a4671a66-fc97-4ce9-8988-56c416b44ac1.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/1760ceb1-0afa-40db-b9ee-f3cb855b0270.jpg?im_w=720",
+                "https://a0.muscache.com/im/pictures/0b81964e-829a-4e8d-82c8-a79f60cb8e10.jpg?im_w=720"
+            ],
+            "title":"Bengaluru, Karnataka",
+            "title2": "PEARL by INSA, Private villa, Lawn view",
+            "type":"Farms",
+            "description":"A cozy private 2BHK villa with a beautiful sit out and a built in born fire. Suitable for private parties & simple getaways.",
+            "price":"6,173",
+            "distance":"1,730 Kilometres away",
+            "date":"10-17 Apr",
+            "host": "Farm stay hosted by Syed"
         }
+
  
     ]
 }
