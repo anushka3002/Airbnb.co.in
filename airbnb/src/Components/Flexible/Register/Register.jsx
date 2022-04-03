@@ -349,7 +349,7 @@ export const Register = ()=>{
                 </div>
 
                 <div className={styles.ySocial}>
-                    <div className={styles.ySocial_btn}>
+                    <div className={styles.ySocial_btng}>
                     <Google_auth></Google_auth>
                             <span>
                                 Continue with Google
