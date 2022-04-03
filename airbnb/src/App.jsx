@@ -3,6 +3,7 @@ import logo from './logo.svg'
 import './App.css'
 import { LandingPage } from './Components/LandingPage/LandingPage'
 import {Footer} from "./Components/Footer/Footer"
+import {Payment} from "./Components/Payment/Payment"
 
 
 // import { MyFD } from './Components/FlexibleDetails/FlexibleDetails'
@@ -29,7 +30,7 @@ function App() {
     <div className="App">
       <Routers/>
       {/* <Singup/> */}
-      
+      {/* <Payment/> */}
     </div>
   )
 }

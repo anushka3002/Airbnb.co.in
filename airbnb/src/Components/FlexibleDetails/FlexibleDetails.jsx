@@ -28,6 +28,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { Link, useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import { Footer } from "../Footer/Footer";
 
 export const MyFD = () => {
   let { id } = useParams();
@@ -268,14 +269,10 @@ export const MyFD = () => {
               </div>
             </div>
             <div className={Styles.d_right_btn}>
-              <button
-                className={Styles.d_rightReservebtn}
-                onClick={() => {
-                  navigate("/payment");
-                }}
-              >
+              <Link to={"/payment/:id"}><button
+                className={Styles.d_rightReservebtn}>
                 Reserve
-              </button>
+              </button></Link>
               <div className={Styles.d_rightBill}>
                 <p className={Styles.d_rightBill_p}>You won't be charged yet</p>
               </div>
@@ -659,6 +656,7 @@ export const MyFD = () => {
           <FontAwesomeIcon icon={faAngleRight} /> Gianyar Regency
         </span>
       </div>
+      <Footer/>
     </div>
   );
 };
