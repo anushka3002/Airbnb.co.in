@@ -6,7 +6,8 @@ export class Google_auth extends Component{
 
     responseGoogle=(response)=>{
         console.log(response);
-        console.log(response.profileObj);
+        console.log("hellooooo",response.profileObj);
+        localStorage.setItem("google_pic",JSON.stringify(response.profileObj));
     }
     
     render(){

@@ -1,6 +1,7 @@
 import styles from "./Register.module.css";
 import { Singup } from "../../LoginSignup/Signup";
 import { useState } from "react";
+import { Google_auth } from "../../LoginSignup/Google_auth";
 
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button"
@@ -348,7 +349,7 @@ export const Register = ()=>{
 
                 <div className={styles.ySocial}>
                     <div className={styles.ySocial_btn}>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1024px-Google_%22G%22_Logo.svg.png" width="20px" height="20px"></img>
+                    <Google_auth></Google_auth>
                             <span>
                                 Continue with Google
                             </span>
