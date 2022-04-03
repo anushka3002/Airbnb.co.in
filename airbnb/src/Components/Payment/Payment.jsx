@@ -22,7 +22,7 @@ console.log(id)
     
     const getData = () => {
         axios
-          .get(`http://localhost:8080/houses/${id}`)
+          .get(`https://mysivaji.herokuapp.com/houses/${id}`)
           .then((res) => {
             setDetails(res.data);
             setImg(res.data.images);
@@ -35,15 +35,15 @@ console.log(id)
       };
       const x = details.price;
       let price;
-      if(x === undefined){
-        price = 0;
-      }
-      else{
-        price = x.replace(",", "")
-      }
+      // if(x === undefined){
+      //   price = 0;
+      // }
+      // else{
+      //   price = x.replace(",", "")
+      // }
       // const price = x.replace(",", "") || [];
       const num = Number(price);
-      const total = num * 7;
+      const total = details.price * 7;
       const sum = num + total;
 
     const navigate =useNavigate();

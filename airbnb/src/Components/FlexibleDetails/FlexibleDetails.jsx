@@ -46,11 +46,11 @@ export const MyFD = () => {
 
   const getData = () => {
     axios
-      .get(`http://localhost:8080/houses/${id}`)
+      .get(`https://mysivaji.herokuapp.com/houses/${id}`)
       .then((res) => {
         setDetails(res.data);
         setImg(res.data.images);
-        console.log(res.data);
+        console.log(res.data,"sivaji");
       })
       .catch((err) => {
         console.log("Error", err);
@@ -59,15 +59,15 @@ export const MyFD = () => {
   console.log("working", details.price);
   const x = details.price;
   let price;
-  if(x === undefined){
-    price = 0;
-  }
-  else{
-    price = x.replace(",", "")
-  }
-  const num = Number(price);
-  const total = num * 7;
-  const sum = num + total;
+  // if(x === undefined){
+  //   price = 0;
+  // }
+  // else{
+  //   price = x.replace(",", "")
+  // }
+  // const num = price;
+  const total = details.price * 7;
+  const sum =  total+5321;
   const navigate = useNavigate();
 
   return (

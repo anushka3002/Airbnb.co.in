@@ -17,15 +17,15 @@ export const Routers=()=>{
         <>
         <Routes>
             <Route path="/" element={<LandingPage/>}/>
-            <Route path="/become_a_host" element={<Host/>}/>
-            <Route path="/flexible" element={<NavbarComponent/>}/>
-            <Route path="/superhost" element={<Superhost/>}/>
-            <Route path="/Support_Ukraine" element={<Ukraine/>}/>
-            <Route path ={"/payment/:id"} element = {<Payment/>}></Route>
-            <Route path ={"/details/:id"} element={<Payment/>}/>
-            <Route path ={"/check"} element = {<Checkout/>}></Route>
-            <Route path ={"/card"} element = {<Card/>}></Route>
-            <Route path ={"/thank"} element = {<Thank/>}></Route>
+        <Route path="/become_a_host" element={<Host/>}/>
+        <Route path="/flexible" element={<NavbarComponent/>}/>
+        <Route path="/superhost" element={<Superhost/>}/>
+        <Route path="/Support_Ukraine" element={<Ukraine/>}/>
+        <Route path="/details/:id" element={<MyFD/>}/>
+        <Route path="/payment/:id" element = {<Payment/>}></Route>
+       <Route path ={"/check"} element = {<Checkout/>}></Route>
+       <Route path ={"/card"} element = {<Card/>}></Route>
+       <Route path ={"/thank"} element = {<Thank/>}></Route>
         </Routes>
         </>
     )

@@ -1,19 +1,19 @@
 import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
-import { LandingPage } from './Components/LandingPage/LandingPage'
-import {Footer} from "./Components/Footer/Footer"
-import {Payment} from "./Components/Payment/Payment"
+// import { LandingPage } from './Components/LandingPage/LandingPage'
+// import {Footer} from "./Components/Footer/footer"
+// import {Payment} from "./Components/Payment/Payment"
 
 
 // import { MyFD } from './Components/FlexibleDetails/FlexibleDetails'
 
-import { Singup } from './Components/LoginSignup/Signup'
-import { Host } from './Components/Become_a_host/Host'
+// import { Singup } from './Components/LoginSignup/Signup'
+// import { Host } from './Components/Become_a_host/Host'
 
-import { CardComponent } from './Components/Places_card/Travel_card'
+// import { CardComponent } from './Components/Places_card/Travel_card'
 import { Routers } from './Components/Routers/router'
-import { Ukraine } from './Components/Ukraine/Ukraine'
+// import { Ukraine } from './Components/Ukraine/Ukraine'
 // import {Google_auth} from "./Components/LoginSignup/Google_auth"
 
 // <<<<<<< HEAD
@@ -31,6 +31,7 @@ function App() {
       <Routers/>
       {/* <Singup/> */}
       {/* <Payment/> */}
+
     </div>
   )
 }
