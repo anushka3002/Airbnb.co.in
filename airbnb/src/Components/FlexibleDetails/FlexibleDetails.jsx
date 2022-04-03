@@ -269,14 +269,10 @@ export const MyFD = () => {
               </div>
             </div>
             <div className={Styles.d_right_btn}>
-              <button
-                className={Styles.d_rightReservebtn}
-                onClick={() => {
-                  navigate("/payment");
-                }}
-              >
+              <Link to={"/payment/:id"}><button
+                className={Styles.d_rightReservebtn}>
                 Reserve
-              </button>
+              </button></Link>
               <div className={Styles.d_rightBill}>
                 <p className={Styles.d_rightBill_p}>You won't be charged yet</p>
               </div>
