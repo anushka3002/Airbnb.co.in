@@ -1,0 +1,186 @@
+#sleft{
+    width:40%;
+    height:1000px;
+    /* border:1px solid red; */
+    margin-left:10%;
+    margin-top:5%;
+  }
+  #sairbnb{
+    width:99.8%;
+    height:80px;
+    
+    border:1px solid rgb(216, 219, 219);
+  }
+  #sairbnb>img{
+    height:80px;
+    width:170px;
+    
+  }
+  #sicon{
+      display:flex;
+      gap: 50px;
+  }
+  #sconfirm{
+      
+      font-size:200%;
+      font-weight:600;
+  }
+  #sfont{
+      margin: top 10%;
+  }
+  #slower{
+      border:1px solid rgba(17, 16, 16, 0.15);
+      height:12%;
+      width:100%;
+      margin-top:7%;
+      /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+      border-radius: 10px;
+  }
+  #sprice{
+    /* border:1px solid rgb(13, 214, 221); */
+    height:100%;
+    width:90%;
+    margin: auto;
+    
+  
+  }
+  #strip{
+      font-size: 150%;
+      font-weight: 600;
+  }
+  #sdates{
+      display:flex;
+      justify-content:space-between ;
+  }
+  #sedit{
+      text-decoration: underline;
+      cursor: pointer;
+  }
+
+  #spay{
+      display:flex;
+      justify-content: space-between;
+      margin-bottom: 4%;
+  }
+  #simg>img{
+      height:25px;
+  }
+  #swith{
+      font-weight: 600;
+      font-size: 150%;
+      
+  }
+  #sinput{
+      height:5%;
+      width:100%;
+      text-align: center;
+      border-radius:10px ;
+      font-size: larger;
+     
+  }
+  #scoupon{
+      font-size: larger;
+      font-weight: 500;
+      text-decoration: underline;
+      cursor:pointer;
+  }
+  #spolicy{
+      font-size: 150%;
+      font-weight: 600;
+      
+  }
+  #sbutton{
+      margin-top: 8%;
+      width:34%;
+      height:5%;
+      border-radius: 10px;
+      background-color: #d90864;
+      cursor: pointer;
+      color:beige;
+      font-weight: bolder;
+      font-size: 100%;
+      border: none;
+  }
+  #slast{
+      /* border:1px solid teal; */
+      margin-top: 12%;
+      width:99.8%;
+      height:60px;
+      background-color: #f7f7f7;
+      
+  }
+  #sdetails{
+      margin-top:10%;
+    margin-left:10%;
+    border:1px solid rgb(248, 248, 248);
+    
+  }
+  #smain{
+      display:flex;
+      /* border:1px solid yellowgreen; */
+      height:100%;
+     
+     
+  }
+  #sright{
+      
+      /* position:fixed; */
+      /* position: sticky; */
+   
+      
+      position:fixed;
+      left:45%;
+      top:17%;
+       height:450px;
+      width:40%; 
+       margin-left:10%;
+      /* margin-top:10%;  */
+      margin-right: 10%;
+      border:1px solid rgba(17, 16, 16, 0.15);
+      border-radius: 10px;
+      
+      
+  }
+  #sbox{
+      border-bottom:1px solid #929691;
+      height:28%;
+      width:90%;
+      margin-left: 5%;
+      margin-top: 5%;
+      display:flex;
+      /* border:1px solid red; */
+
+     
+  }
+
+  #sboximage{
+      height: 100%;
+      width:30%;
+      /* border:1px solid teal; */
+  }
+
+  #sboxtwo{
+      width:70%;
+      height:100%;
+      /* border:1px solid thistle; */
+      margin-left: 5%;
+  }
+  #sboximage>img{
+      height:95%;
+      width:100%;
+      border-radius: 10px;
+  }
+  #sspan{
+      color:red;
+  }
+  #spricedetails{
+      /* border:1px solid teal; */
+      height:55%;
+      width:90%;
+      margin-left: 5%;
+      margin-top: 5%;
+  }
+  #sheading{
+      font-size: 150%;;
+      font-family: 800;
+  }
