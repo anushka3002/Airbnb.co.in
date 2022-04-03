@@ -4,7 +4,7 @@ import styles from "./Payment.module.css"
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faAngleLeft} from '@fortawesome/free-solid-svg-icons'
 import { useNavigate } from "react-router-dom";
-import { Link }  from "react-router-dom"
+
 
 import airbnb from "./images/airbnb.png"
 // import hdfc from "./images/hdfc.png"

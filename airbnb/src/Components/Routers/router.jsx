@@ -6,6 +6,12 @@ import { Superhost } from "../Superhost/Superhost";
 import {Ukraine} from "../Ukraine/Ukraine";
 import {MyFD} from "../FlexibleDetails/FlexibleDetails"
 
+import {Payment} from "../Payment/Payment"
+import { Checkout } from "../Payment/Checkout"
+import { Card } from "../Payment/Card"
+import { Thank } from "../Payment/Thank"
+
+
 export const Routers=()=>{
     return(
         <>
