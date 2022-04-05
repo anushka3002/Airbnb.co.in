@@ -467,6 +467,7 @@
   width: 100%;
   height: auto;
   /* border: 1px solid green; */
+  margin-top: 5%;
 }
 .d_class_name21 > img{
     border-top-right-radius: 10px;
@@ -636,7 +637,7 @@
 }
 .d_desImg1 {
   /* border: 1px solid red; */
-  width: 10%;
+  width: 9%;
   height: 90%;
   border-radius: 50%;
   margin-top: 0.5%;
