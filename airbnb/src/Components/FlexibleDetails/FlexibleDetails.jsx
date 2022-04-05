@@ -29,6 +29,7 @@ import axios from "axios";
 import { Link, useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { Footer } from "../Footer/Footer";
+import { NavbarComponent } from "../Flexible/Navbar/NavbarComponent";
 
 export const MyFD = () => {
   let { id } = useParams();
@@ -71,7 +72,7 @@ export const MyFD = () => {
   const navigate = useNavigate();
 
   return (
-    <div className={Styles.d_alpaBody}>
+   <div className={Styles.d_alpaBody}>
       <div className={Styles.d_reactBody}>
         <div className={Styles.d_reactTitle}>
           <div className={Styles.d_reactTitle1}>
