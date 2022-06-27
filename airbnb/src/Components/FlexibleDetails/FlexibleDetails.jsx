@@ -47,7 +47,7 @@ export const MyFD = () => {
 
   const getData = () => {
     axios
-      .get(`https://mysivaji.herokuapp.com/houses/${id}`)
+      .get(`https://airbnbmasai.herokuapp.com/houses/${id}`)
       .then((res) => {
         setDetails(res.data);
         setImg(res.data.images);

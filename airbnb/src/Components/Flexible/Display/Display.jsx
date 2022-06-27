@@ -13,7 +13,7 @@ export const Display = ({value})=>{
     const [data,setData] = useState([]);
     
     useEffect(()=>{ 
-        axios.get("https://mysivaji.herokuapp.com/houses").then((res)=>{
+        axios.get("https://airbnbmasai.herokuapp.com/houses").then((res)=>{
             setData(res.data)
         })
     },[])
