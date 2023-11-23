@@ -1,5 +1,6 @@
 
-<img src="https://www.camillabendetti.com/project/airbnb/featured.jpg" width="100%"></img>
+![airbnb_screenshot](https://github.com/anushka3002/Airbnb.co.in/assets/44356948/4e78d317-d5f4-4a44-8c8d-515581c6369d)
+
 
 <div align='center'>
   
